@@ -1,1 +1,2 @@
-module.exports = 'Titulo del componente formativo'
+module.exports =
+  'Normatividad y requisitos técnicos para tableros de distribución'
