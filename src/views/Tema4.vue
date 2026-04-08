@@ -24,15 +24,16 @@
 
     separador
 
-    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.1 Señalización obligatoria en tableros
+    .bg-full-width.bg-fondo-2
+      #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 4.1 Señalización obligatoria en tableros
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-9.mb-4.mb-lg-0
-        p.mb-3 Una de las primeras exigencias del RETIE es que los tableros estén dotados de señalización visible, permanente y comprensible. Esta señalización cumple una doble función: prevenir accidentes y facilitar la operación segura. No se trata únicamente de “poner etiquetas”, sino de transmitir información crítica sobre riesgos eléctricos, circuitos activos, dispositivos de protección y condiciones especiales del sistema.
-        p.mb-0 Por ejemplo, si un tablero alimenta equipos trifásicos o cargas de alta capacidad, la señalización debe advertirlo claramente. Lo mismo ocurre con tableros que poseen energización dual, circuitos de emergencia o zonas que requieren procedimientos especiales de bloqueo y etiquetado (LOTO).
-      .col-md-8.col-lg-3
-        img(src="@/assets/curso/tema4/img04.png", alt="Imagen decorativa")
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-9.mb-4.mb-lg-0
+          p.mb-3 Una de las primeras exigencias del RETIE es que los tableros estén dotados de señalización visible, permanente y comprensible. Esta señalización cumple una doble función: prevenir accidentes y facilitar la operación segura. No se trata únicamente de “poner etiquetas”, sino de transmitir información crítica sobre riesgos eléctricos, circuitos activos, dispositivos de protección y condiciones especiales del sistema.
+          p.mb-0 Por ejemplo, si un tablero alimenta equipos trifásicos o cargas de alta capacidad, la señalización debe advertirlo claramente. Lo mismo ocurre con tableros que poseen energización dual, circuitos de emergencia o zonas que requieren procedimientos especiales de bloqueo y etiquetado (LOTO).
+        .col-md-8.col-lg-3
+          img(src="@/assets/curso/tema4/img04.png", alt="Imagen decorativa")
 
 
     .row.justify-content-center.align-items-center.mb-3
@@ -55,7 +56,7 @@
           .row.align-items-center.justify-content-center
             .col-md-8.col-lg-3.mb-4.mb-lg-0
               figure
-                img(src="@/assets/curso/tema4/img03.svg", alt="Imagen decorativa")
+                img(src="@/assets/curso/tema4/img03.png", alt="Imagen decorativa")
             .col-12.col-md-12.col-lg-9
               p.mb-3 La identificación de circuitos es una de las prácticas más importantes dentro de un tablero. Un tablero sin rótulos es, en la práctica, un rompecabezas peligroso. Cuando cada circuito está identificado correctamente, se evita:
               
@@ -94,22 +95,23 @@
 
     separador
 
-    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.3 Inspección de conformidad: criterios de verificación
+    .bg-full-width.bg-fondo-2
+      #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 4.3 Inspección de conformidad: criterios de verificación
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.col-lg-3.mb-4.mb-lg-0
-        img(src="@/assets/curso/tema4/img05.png", alt="Imagen decorativa")
-      .col-md-12.col-lg-9
-        p.mb-0 La inspección de conformidad es el mecanismo mediante el cual se verifica que un tablero cumple con la normatividad vigente. No se trata de un trámite opcional; en instalaciones nuevas, ampliaciones o remodelaciones mayores, la certificación es obligatoria. El organismo de inspección no solo revisa el tablero visualmente, sino que evalúa: la calidad de las conexiones, la organización interna, la continuidad de las barras, la presencia de puesta a tierra adecuada, el nivel de cortocircuito disponible, la capacidad interruptiva de las protecciones, y por supuesto, la existencia del diagrama unifilar y la señalización correspondiente.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-8.col-lg-3.mb-4.mb-lg-0
+          img(src="@/assets/curso/tema4/img05.png", alt="Imagen decorativa")
+        .col-md-12.col-lg-9
+          p.mb-0 La inspección de conformidad es el mecanismo mediante el cual se verifica que un tablero cumple con la normatividad vigente. No se trata de un trámite opcional; en instalaciones nuevas, ampliaciones o remodelaciones mayores, la certificación es obligatoria. El organismo de inspección no solo revisa el tablero visualmente, sino que evalúa: la calidad de las conexiones, la organización interna, la continuidad de las barras, la presencia de puesta a tierra adecuada, el nivel de cortocircuito disponible, la capacidad interruptiva de las protecciones, y por supuesto, la existencia del diagrama unifilar y la señalización correspondiente.
 
 
-    .container.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .titulo-con-imagen.mb-5(data-aos="fade-right")
-          .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
-            h3.titulo-con-imagen__texto Ejemplo contextualizado
+      .container.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
+              h3.titulo-con-imagen__texto Ejemplo contextualizado
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -153,8 +155,8 @@
                   p.mb-0 Ingrese a este enlace de video a continuación, para profundizar sobre la importancia de la señalización eléctrica:
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=24FRFLwRQL0" target="_blank")
-                    span Abrir video
-                    i.fas.fa-play-circle
+                    span Enlace web
+                    i.fas.fa-link
 
 </template>
 <script>

@@ -28,23 +28,24 @@
         .tarjeta.bg-color-1.p-3.mb-3.br-15
           p.mb-0 En una vivienda de estrato medio, el propietario decide ampliar su cocina e instalar nuevos electrodomésticos. Para ello solicita la instalación de un tablero adicional. A simple vista, el tablero parece estar completo: tiene interruptores nuevos, un gabinete metálico y espacio suficiente. Sin embargo, al realizar una inspección más detallada, se evidencian varios problemas.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 2.
-          span Tablero de uso residencial con no conformidades
-        figure.mb-2
-          img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema5/img04.png", alt="La figura 2  muestra un tablero residencial empotrado con la puesta abierta. Sobre la fotografía se señalan tres no conformidades: ausencia de identificación de circuitos; barra de neutro y barra de tierra unidas; falta de protección diferencial para zonas húmedas.")
-          img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema5/img05.png", alt="La figura 2  muestra un tablero residencial empotrado con la puesta abierta. Sobre la fotografía se señalan tres no conformidades: ausencia de identificación de circuitos; barra de neutro y barra de tierra unidas; falta de protección diferencial para zonas húmedas.")
-        figcaption <strong>Nota.</strong> SENA, (2026).
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-4
+            h5.text-bold Figura 2.
+            span Tablero de uso residencial con no conformidades
+          figure.mb-2
+            img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema5/img04.png", alt="La figura 2  muestra un tablero residencial empotrado con la puesta abierta. Sobre la fotografía se señalan tres no conformidades: ausencia de identificación de circuitos; barra de neutro y barra de tierra unidas; falta de protección diferencial para zonas húmedas.")
+            img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema5/img05.png", alt="La figura 2  muestra un tablero residencial empotrado con la puesta abierta. Sobre la fotografía se señalan tres no conformidades: ausencia de identificación de circuitos; barra de neutro y barra de tierra unidas; falta de protección diferencial para zonas húmedas.")
+          figcaption <strong>Nota.</strong> SENA, (2026).
   
 
-    .container.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .titulo-con-imagen.mb-5(data-aos="fade-right")
-          .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
-            h3.titulo-con-imagen__texto Hallazgos
+      .container.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
+              h3.titulo-con-imagen__texto Hallazgos
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-8.mb-4.mb-lg-0  
@@ -121,7 +122,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 3.
+          h5.text-bold Figura 3.
           span Tablero de uso industrial con no conformidades
         figure.mb-2
           img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema5/img08.svg", alt="La figura 3 muestra una sala eléctrica con tablero switchgear trifásico de varias celdas. Sobre la imagen se indican cinco observaciones: falta de coordinación de protecciones; kA de interrupción insuficiente; diagrama unifilar desactualizado; carencia de barreras internas; y grado de protección del gabinete. En el piso se ve una franja de seguridad que delimita 1 metro de espacio de trabajo.")
@@ -129,106 +130,108 @@
         figcaption <strong>Nota.</strong> SENA, (2026).
   
 
-    .container.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .titulo-con-imagen.mb-5(data-aos="fade-right")
-          .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
-            h3.titulo-con-imagen__texto Hallazgos
+    .bg-full-width.bg-fondo-2
+      .container.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
+              h3.titulo-con-imagen__texto Hallazgos
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.col-lg-4.mb-5.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema5/img10.png", data-aos="zoom-in")
-      .col-md-12.col-lg-8
-        SlyderF(columnas="col-12 col-md-6")
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 01
-              p.mb-0 Selectividad deficiente: se sugiere ajustar curvas C / D.
-          
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 02
-              p.mb-0 Capacidad interruptiva insuficiente frente al kA disponible.
-          
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 03
-              p.mb-0 Ausencia de barreras separadoras entre barras y canaletas.
-          
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 04
-              p.mb-0 Falta de cierre adecuado para preservar el grado de protección.
-          
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 05
-              p.mb-0 Señalización de riesgo eléctrico en niveles altos de tensión.
-          
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 06
-              p.mb-0 Área de trabajo demarcada con 1 metro de espacio frontal, como exige la NTC 2050.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-8.col-lg-4.mb-5.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema5/img10.png", data-aos="zoom-in")
+        .col-md-12.col-lg-8
+          SlyderF(columnas="col-12 col-md-6")
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 01
+                p.mb-0 Selectividad deficiente: se sugiere ajustar curvas C / D.
+            
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 02
+                p.mb-0 Capacidad interruptiva insuficiente frente al kA disponible.
+            
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 03
+                p.mb-0 Ausencia de barreras separadoras entre barras y canaletas.
+            
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 04
+                p.mb-0 Falta de cierre adecuado para preservar el grado de protección.
+            
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 05
+                p.mb-0 Señalización de riesgo eléctrico en niveles altos de tensión.
+            
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 06
+                p.mb-0 Área de trabajo demarcada con 1 metro de espacio frontal, como exige la NTC 2050.
 
-    .container.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .titulo-con-imagen.mb-5(data-aos="fade-right")
-          .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
-            h3.titulo-con-imagen__texto Conclusión del caso
+      .container.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
+              h3.titulo-con-imagen__texto Conclusión del caso
+   
+    .bg-full-width.bg-fondo-2
+      p.mb-4 En síntesis, el tablero industrial analizado requiere una intervención integral que permita restablecer su seguridad y alinearlo con los criterios establecidos por el RETIE y la NTC 2050.
 
-    p.mb-4 En síntesis, el tablero industrial analizado requiere una intervención integral que permita restablecer su seguridad y alinearlo con los criterios establecidos por el RETIE y la NTC 2050.
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-8.mb-5.mb-lg-0
-        SlyderF(columnas="col-12 col-md-6")
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 01
-              p.mb-0 Ajustar las curvas de disparo para recuperar la selectividad. 
-          
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 02
-              p.mb-0 Reemplazar las protecciones con capacidad interruptiva insuficiente.
-          
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 03
-              p.mb-0 Instalar barreras internas y garantizar el cierre adecuado del gabinete son acciones prioritarias. 
-          
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 04
-              p.mb-0 Reforzar la señalización de riesgo eléctrico.
-          
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 05
-              p.mb-0 Mantener el área de trabajo despejada asegura una operación segura y una futura inspección sin contratiempos.
-      .col-md-8.col-lg-4
-        figure
-          img(src="@/assets/curso/tema5/img11.png", data-aos="zoom-in")
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-8.mb-5.mb-lg-0
+          SlyderF(columnas="col-12 col-md-6")
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 01
+                p.mb-0 Ajustar las curvas de disparo para recuperar la selectividad. 
+            
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 02
+                p.mb-0 Reemplazar las protecciones con capacidad interruptiva insuficiente.
+            
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 03
+                p.mb-0 Instalar barreras internas y garantizar el cierre adecuado del gabinete son acciones prioritarias. 
+            
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 04
+                p.mb-0 Reforzar la señalización de riesgo eléctrico.
+            
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 05
+                p.mb-0 Mantener el área de trabajo despejada asegura una operación segura y una futura inspección sin contratiempos.
+        .col-md-8.col-lg-4
+          figure
+            img(src="@/assets/curso/tema5/img11.png", data-aos="zoom-in")
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-10
-        .tarjeta.bg-color-4.p-3.mb-3.br-15
-          p.mb-0.text-center Con estas correcciones, el tablero podrá operar de forma confiable, estable y conforme a la normatividad vigente.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-10
+          .tarjeta.bg-color-4.p-3.mb-3.br-15
+            p.mb-0.text-center Con estas correcciones, el tablero podrá operar de forma confiable, estable y conforme a la normatividad vigente.
 
 
     separador
@@ -241,7 +244,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 5.
+          h5.text-bold Tabla 5.
           span Errores comunes en tableros, riesgos asociados y acciones correctivas
         .tabla-a.color-acento-contenido.mb-0
           table

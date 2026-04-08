@@ -23,29 +23,30 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 Especificaciones constructivas
 
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-12
+          img(src="@/assets/curso/tema2/img02.png", alt="Imagen decorativa")
+          
+          .row.justify-content-center.align-items-center.z-2
+            .col-lg-10(data-aos="fade-up")
+              p.banner-text La construcción de un tablero de distribución no se deja al azar ni a la experiencia empírica; por el contrario, debe cumplir estándares precisos establecidos por la normatividad técnica. Tanto el RETIE como la NTC 2050 especifican las condiciones que deben cumplir los gabinetes, las cubiertas internas, los materiales, los sistemas de ventilación, el tipo de aislación y los métodos de protección contra el contacto directo e indirecto.
+
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-8.col-lg-4.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema2/img03.png", data-aos="zoom-in")
+        .col-md-12.col-lg-8
+          p.mb-3  Desde el punto de vista constructivo, un tablero es un equipo eléctrico cerrado que alberga interruptores, barras colectoras, puentes, conductores y dispositivos de protección. La manera en que estos elementos se integran determina su confiabilidad, capacidad de operación y seguridad para el usuario.
+          .tarjeta.bg-color-1.p-3.mb-3.br-15
+            p.mb-3 Para comprender mejor estos requisitos, es útil reconocer que la normativa exige que los tableros se fabriquen con materiales resistentes al fuego, no higroscópicos y capaces de proteger los componentes internos frente a humedad, polvo y posibles fuentes externas de daño mecánico. Además, las cubiertas internas cumplen la función crítica de impedir el contacto accidental con partes energizadas.
+            p.mb-0 La siguiente tabla sintetiza algunos de los elementos constructivos obligatorios:
+
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
-        img(src="@/assets/curso/tema2/img02.png", alt="Imagen decorativa")
-        
-        .row.justify-content-center.align-items-center.z-2
-          .col-lg-8(data-aos="fade-up")
-            p.banner-text La construcción de un tablero de distribución no se deja al azar ni a la experiencia empírica; por el contrario, debe cumplir estándares precisos establecidos por la normatividad técnica. Tanto el RETIE como la NTC 2050 especifican las condiciones que deben cumplir los gabinetes, las cubiertas internas, los materiales, los sistemas de ventilación, el tipo de aislación y los métodos de protección contra el contacto directo e indirecto.
-
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.col-lg-4.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/img03.png", data-aos="zoom-in")
-      .col-md-12.col-lg-8
-        p.mb-3  Desde el punto de vista constructivo, un tablero es un equipo eléctrico cerrado que alberga interruptores, barras colectoras, puentes, conductores y dispositivos de protección. La manera en que estos elementos se integran determina su confiabilidad, capacidad de operación y seguridad para el usuario.
-        .tarjeta.bg-color-1.p-3.mb-3.br-15
-          p.mb-3 Para comprender mejor estos requisitos, es útil reconocer que la normativa exige que los tableros se fabriquen con materiales resistentes al fuego, no higroscópicos y capaces de proteger los componentes internos frente a humedad, polvo y posibles fuentes externas de daño mecánico. Además, las cubiertas internas cumplen la función crítica de impedir el contacto accidental con partes energizadas.
-          p.mb-0 La siguiente tabla sintetiza algunos de los elementos constructivos obligatorios:
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-9
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 2.
+          h5.text-bold Tabla 2.
           span Elementos constructivos mínimos del tablero según normativa
         .tabla-a.color-acento-contenido.mb-0
           table
@@ -85,46 +86,50 @@
       h2 2.2 Materiales, encerramientos y grados de protección
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-8.mb-4.mb-lg-0
-        p.mb-3  Uno de los aspectos que más determina la seguridad del tablero es el material con el que se fabrica su gabinete. El RETIE exige que los tableros soporten condiciones ambientales del lugar donde serán instalados, lo que implica que su diseño debe contemplar riesgos como humedad, polvo, choques mecánicos o atmósferas corrosivas. Por este motivo, la selección del gabinete depende tanto del entorno como del tipo de instalación.
-        .tarjeta.bg-color-19.p-3.mb-3.br-15
-          p.mb-0 Los tableros pueden construirse en lámina de acero rolado en frío, acero inoxidable, aluminio o polímeros con características aislantes. Cuando se emplean láminas metálicas, estas deben estar tratadas con pintura electrostática resistente a la corrosión y deben cumplir un nivel de hermeticidad acorde con el ambiente en el que se ubiquen. En zonas con presencia de polvo o salinidad, por ejemplo, un gabinete con un grado de protección IP54 o superior resulta necesario para evitar fallas prematuras.
-        p.mb-0 El sistema de clasificación IP (Ingress Protection) permite identificar el nivel de protección contra el ingreso de sólidos y líquidos. En general:
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-8.mb-4.mb-lg-0
+          p.mb-3  Uno de los aspectos que más determina la seguridad del tablero es el material con el que se fabrica su gabinete. El RETIE exige que los tableros soporten condiciones ambientales del lugar donde serán instalados, lo que implica que su diseño debe contemplar riesgos como humedad, polvo, choques mecánicos o atmósferas corrosivas. Por este motivo, la selección del gabinete depende tanto del entorno como del tipo de instalación.
+          .tarjeta.bg-color-19.p-3.mb-3.br-15
+            p.mb-0 Los tableros pueden construirse en lámina de acero rolado en frío, acero inoxidable, aluminio o polímeros con características aislantes. Cuando se emplean láminas metálicas, estas deben estar tratadas con pintura electrostática resistente a la corrosión y deben cumplir un nivel de hermeticidad acorde con el ambiente en el que se ubiquen. En zonas con presencia de polvo o salinidad, por ejemplo, un gabinete con un grado de protección IP54 o superior resulta necesario para evitar fallas prematuras.
+          p.mb-0 El sistema de clasificación IP (Ingress Protection) permite identificar el nivel de protección contra el ingreso de sólidos y líquidos. En general:
 
 
-      .col-md-8.col-lg-4
-        figure
-          img(src="@/assets/curso/tema2/img04.png", data-aos="zoom-in")
+        .col-md-8.col-lg-4
+          figure
+            img(src="@/assets/curso/tema2/img04.png", data-aos="zoom-in")
 
 
-    .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").tarjeta
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/tema2/img05.png", alt="alt")
-          .crd_hover_txt--body(style="padding: 1.2rem;")
-            h5.mb-3 Gabinetes para ambientes interiores (IP20 – IP30)
-            p.mb-0 Para ambientes interiores con bajas exigencias ambientales, un gabinete IP20 – IP30 suele ser suficiente.
-            
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").tarjeta
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/tema2/img06.png", alt="alt")
-          .crd_hover_txt--body
-            h5.mb-3 Gabinetes para exteriores e industria (IP55 – IP65)
-            p.mb-0 En ambientes exteriores o industriales, se requieren gabinetes IP55 – IP65, que garanticen protección contra polvo y chorros de agua .
-            
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").tarjeta
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/tema2/img07.png", alt="alt")
-          .crd_hover_txt--body
-            h5.mb-3 Gabinetes para entornos críticos (Certificación NEMA)
-            p.mb-0 Para aplicaciones críticas o zonas con riesgo químico, pueden requerirse gabinetes con certificación NEMA, especialmente los tipos 3R, 4 o 4X.
+      .row.justify-content-center.mb-5
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema2/img05.png", alt="alt")
+            .crd_hover_txt--body(style="padding: 0.5rem;")
+              h5.mb-2.text-center Gabinetes para ambientes interiores (IP20 – IP30)
+              .p-2
+                p.mb-0 Para ambientes interiores con bajas exigencias ambientales, un gabinete IP20 – IP30 suele ser suficiente.
+              
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema2/img06.png", alt="alt")
+            .crd_hover_txt--body(style="padding: 0.5rem;")
+              h5.mb-2.text-center Gabinetes para exteriores e industria (IP55 – IP65)
+              .p-2
+                p.mb-0 En ambientes exteriores o industriales, se requieren gabinetes IP55 – IP65, que garanticen protección contra polvo y chorros de agua .
+              
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema2/img07.png", alt="alt")
+            .crd_hover_txt--body(style="padding: 0.5rem;")
+              h5.mb-2.text-center Gabinetes para entornos críticos (Certificación NEMA)
+              .p-2
+                p.mb-0 Para aplicaciones críticas o zonas con riesgo químico, pueden requerirse gabinetes con certificación NEMA, especialmente los tipos 3R, 4 o 4X.
             
     .row.justify-content-center.align-items-center.mb-0
       .col-md-12.col-lg-12
@@ -188,58 +193,59 @@
 
     p.mb-4 Un tablero mal organizado, con conductores cruzados o sin canaletas definidas, no solo dificulta las labores de mantenimiento sino que incrementa el riesgo de sobrecalentamiento y fallas mecánicas. Por ello, la normativa exige que los conductores se organicen mediante canaletas de PVC o bandejas internas diseñadas para soportar las condiciones térmicas del sistema.
 
-    .row.mb-5.p-0.p-lg-0
-      .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0
-        .tarjeta.bg-color-4.box-shadow.p-0.h-100.br-15
-          figure.mb-2
-            img(src="@/assets/curso/tema2/img10.png", alt="Corriente continua").mx-auto
-          .p-4.mb-0.bg-color-4
-            h4.mb-3 Los conductores que ingresan al tablero deben cumplir con la NTC 2050 en cuanto a:
-            ul.lista-ul.mb-0
-              li.mb-0
-                i.fas.fa-circle-right.bg-color-17
-                | Calibre mínimo.
-              li.mb-0
-                i.fas.fa-circle-right.bg-color-17
-                | Tipo de aislamiento.
-              li.mb-0
-                i.fas.fa-circle-right.bg-color-17
-                | Temperatura máxima de operación.
-              li.mb-0
-                i.fas.fa-circle-right.bg-color-17
-                | Resistencia mecánica.
-              li.mb-0
-                i.fas.fa-circle-right.bg-color-17
-                | Codificación por colores (fases, neutro y tierra).
+    .bg-full-width.bg-fondo-2
+      .row.mb-5.p-0.p-lg-0
+        .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0
+          .tarjeta.bg-color-4.box-shadow.p-0.h-100.br-15
+            figure.mb-2
+              img(src="@/assets/curso/tema2/img10.png", alt="Corriente continua").mx-auto
+            .p-4.mb-0.bg-color-4
+              h4.mb-3 Los conductores que ingresan al tablero deben cumplir con la NTC 2050 en cuanto a:
+              ul.lista-ul.mb-0
+                li.mb-0
+                  i.fas.fa-circle-right.bg-color-17
+                  | Calibre mínimo.
+                li.mb-0
+                  i.fas.fa-circle-right.bg-color-17
+                  | Tipo de aislamiento.
+                li.mb-0
+                  i.fas.fa-circle-right.bg-color-17
+                  | Temperatura máxima de operación.
+                li.mb-0
+                  i.fas.fa-circle-right.bg-color-17
+                  | Resistencia mecánica.
+                li.mb-0
+                  i.fas.fa-circle-right.bg-color-17
+                  | Codificación por colores (fases, neutro y tierra).
 
 
-      .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0
-        .tarjeta.bg-color-4.box-shadow.p-0.h-100.br-15
-          figure.mb-2
-            img(src="@/assets/curso/tema2/img11.png", alt="Corriente continua").mx-auto
-          .p-4.mb-0.bg-color-4
-            h4.mb-3 Las conexiones internas deben evitar puntos calientes. Esto exige:
-            ul.lista-ul.mb-0
-              li.mb-0
-                i.fas.fa-circle-right.bg-color-17
-                | Terminales adecuadas.
-              li.mb-0
-                i.fas.fa-circle-right.bg-color-17
-                | Ajustes mecánicos firmes.
-              li.mb-0
-                i.fas.fa-circle-right.bg-color-17
-                | Ausencia de empalmes improvisados.
-              li.mb-0
-                i.fas.fa-circle-right.bg-color-17
-                | Adecuación al tipo de borne del interruptor o barra.
+        .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0
+          .tarjeta.bg-color-4.box-shadow.p-0.h-100.br-15
+            figure.mb-2
+              img(src="@/assets/curso/tema2/img11.png", alt="Corriente continua").mx-auto
+            .p-4.mb-0.bg-color-4
+              h4.mb-3 Las conexiones internas deben evitar puntos calientes. Esto exige:
+              ul.lista-ul.mb-0
+                li.mb-0
+                  i.fas.fa-circle-right.bg-color-17
+                  | Terminales adecuadas.
+                li.mb-0
+                  i.fas.fa-circle-right.bg-color-17
+                  | Ajustes mecánicos firmes.
+                li.mb-0
+                  i.fas.fa-circle-right.bg-color-17
+                  | Ausencia de empalmes improvisados.
+                li.mb-0
+                  i.fas.fa-circle-right.bg-color-17
+                  | Adecuación al tipo de borne del interruptor o barra.
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-12
-        .bg-color-1.p-4.bg-tarjeta
-          .row.align-items-center.justify-content-center
-            .col-10
-              p.mb-0 Una conexión floja puede provocar microarcos y deterioro progresivo, hasta llegar a un incendio eléctrico. Por ello, los puntos de conexión deben revisarse periódicamente y registrarse con torque específico según el fabricante.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-12
+          .bg-color-1.p-4.bg-tarjeta
+            .row.align-items-center.justify-content-center
+              .col-10
+                p.mb-0 Una conexión floja puede provocar microarcos y deterioro progresivo, hasta llegar a un incendio eléctrico. Por ello, los puntos de conexión deben revisarse periódicamente y registrarse con torque específico según el fabricante.
             
     separador
 
@@ -305,7 +311,7 @@
         .row.bg-color-4.align-items-center.justify-content-center.br-15
           .col-md-6.col-lg-4.mb-3.mb-lg-0.order-2.order-md-2.order-lg-1
             figure
-              img(src="@/assets/curso/tema2/img13.svg", data-aos="zoom-in").mx-auto
+              img(src="@/assets/curso/tema2/img13.png", data-aos="zoom-in").mx-auto
           .col-lg-8.order-1.order-md-1.order-lg-2.p-4.p-lg-5  
             h4.mb-3 ¿Sabías qué?
             p.mb-3 Lo invitamos a escuchar el siguiente podcast:

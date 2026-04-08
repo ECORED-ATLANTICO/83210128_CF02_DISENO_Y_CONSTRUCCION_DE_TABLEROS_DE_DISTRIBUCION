@@ -2,13 +2,23 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 23%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 62%
+    right: 87%
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 23%
+    right: 10%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 62%
+    right: 4%
 
 @keyframes float1
   0%
@@ -33,7 +43,7 @@
 .banner-principal .tarjeta
   @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-sm)
+  @media screen and (max-width: $bp-max-xs)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
 //////// Card hover ////////////
@@ -161,6 +171,11 @@ figcaption
   @media screen and (max-width: $bp-max-sm)
     padding-left: 3rem
     padding-right: 3rem
+
+.bg-fondo-2
+  background-image: url("../assets/curso/bg.png") !important
+  background-position: bottom
+  background-size: cover
 
 .bg-fondo-1
   background-image: url("../assets/curso/tema3/img19.png") !important
@@ -473,13 +488,16 @@ a, button, div
 .bg-color-17
   color: #17C1C1 !important
 .bg-color-18
-  background-color: #E6EDF1
+  background-color: #E6EDF1 !important
 
 .bg-color-19
   background-color: #EAECEE
 
 .bg-color-20
   color: #6F88DA !important
+
+.bg-color-21
+  background-color: #EFEFFC !important
 
 .bg-color-9
   background-color: #FFE1CB
@@ -528,7 +546,7 @@ a, button, div
   position: relative
   z-index: 2
 .banner-text
-  background-color: #FFFFFF
+  background-color: #E6EDF1 !important
   border-radius: 10px
   padding: 50px
   margin-top: -60px
@@ -596,15 +614,15 @@ a, button, div
 
 .tarjeta .azul
   .acordion .tarjeta
-    background-color: #AAE5D3 !important
+    background-color: #E8FEFE !important
 
 .acordion .tarjeta .acordion__contenido
   padding-left: 0px !important
 .acordion__activo
-  background-color: #E8F1FE !important
+  background-color: #E8FEFE !important
 .acordion__accion__btn--b
-  background-color: #2079F3 !important
-  border: 1px solid #2079F3 !important
+  background-color: #EFEFFC !important
+  border: 1px solid #EFEFFC !important
 .acordion__accion__btn--a i, .acordion__accion__btn--b i
   color: #fff
 
@@ -734,3 +752,6 @@ a, button, div
   @media screen and ( max-width: $bp-max-md )
     border-bottom: dashed 1px #B0C0D2 !important
     padding-bottom: 15px
+
+.text-bold
+  font-weight: 700 !important

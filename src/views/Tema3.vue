@@ -21,61 +21,62 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.1 Identificación de sistemas (monofásico, bifásico y trifásico)
 
-    p.mb-4 La correcta identificación del sistema eléctrico que alimenta un tablero es el punto de partida para cualquier diseño normativo. El tipo de sistema determina el número de conductores, la distribución de las cargas, la configuración de las barras y la manera en que se representará el tablero en el diagrama unifilar. Además, influye directamente en la selección de protecciones, en la capacidad de corriente y en el diseño de la puesta a tierra.
+    .bg-full-width.bg-fondo-2
+      p.mb-4 La correcta identificación del sistema eléctrico que alimenta un tablero es el punto de partida para cualquier diseño normativo. El tipo de sistema determina el número de conductores, la distribución de las cargas, la configuración de las barras y la manera en que se representará el tablero en el diagrama unifilar. Además, influye directamente en la selección de protecciones, en la capacidad de corriente y en el diseño de la puesta a tierra.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-12
-        .row.align-items-center.justify-content-center
-          .col-lg-12
-            AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-19")
-              div(titulo="Sistemas monofásicos")
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-md-12.col-lg-8.mb-4.mb-lg-0
-                    p.mb-3  Es típico de residencias y pequeños comercios. Está compuesto por una fase y un neutro, y se acompaña de un conductor de protección (tierra). Generalmente opera a 120 V o 120 / 240 V, dependiendo del transformador de la red de distribución.
-                    p.mb-0  En el tablero, este sistema se observa porque los circuitos derivados, iluminación, tomas, electrodomésticos, se conectan a una única línea activa. El diagrama unifilar refleja esta estructura con una sola barra de fase.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-12
+          .row.align-items-center.justify-content-center
+            .col-lg-12
+              AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-21")
+                div(titulo="Sistemas monofásicos")
+                  .row.justify-content-center.align-items-center.mb-0
+                    .col-md-12.col-lg-8.mb-4.mb-lg-0
+                      p.mb-3  Es típico de residencias y pequeños comercios. Está compuesto por una fase y un neutro, y se acompaña de un conductor de protección (tierra). Generalmente opera a 120 V o 120 / 240 V, dependiendo del transformador de la red de distribución.
+                      p.mb-0  En el tablero, este sistema se observa porque los circuitos derivados, iluminación, tomas, electrodomésticos, se conectan a una única línea activa. El diagrama unifilar refleja esta estructura con una sola barra de fase.
 
-                  .col-md-8.col-lg-4
-                    figure
-                      img(src="@/assets/curso/tema3/img02.png", data-aos="zoom-in")
+                    .col-md-8.col-lg-4
+                      figure
+                        img(src="@/assets/curso/tema3/img02.png")
 
-                
-              div(titulo="Sistemas bifásicos")
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-md-12.col-lg-8.mb-4.mb-lg-0
-                    p.mb-3  Este sistema, comúnmente denominado “bifásico”, corresponde a instalaciones que requieren dos fases de un sistema trifásico o una derivación desde un transformador con toma central. Sus tensiones habituales son 120 / 240 V o 208 / 120 V. Ofrece mayor capacidad que el monofásico y permite la alimentación de electrodomésticos de alta demanda o equipos más exigentes.
-                    p.mb-0  En el diagrama unifilar, se identifican claramente dos fases (L1 y L2) y un neutro, acompañadas de sus protecciones respectivas.
+                  
+                div(titulo="Sistemas bifásicos")
+                  .row.justify-content-center.align-items-center.mb-0
+                    .col-md-12.col-lg-8.mb-4.mb-lg-0
+                      p.mb-3  Este sistema, comúnmente denominado “bifásico”, corresponde a instalaciones que requieren dos fases de un sistema trifásico o una derivación desde un transformador con toma central. Sus tensiones habituales son 120 / 240 V o 208 / 120 V. Ofrece mayor capacidad que el monofásico y permite la alimentación de electrodomésticos de alta demanda o equipos más exigentes.
+                      p.mb-0  En el diagrama unifilar, se identifican claramente dos fases (L1 y L2) y un neutro, acompañadas de sus protecciones respectivas.
 
-                  .col-md-8.col-lg-4
-                    figure
-                      img(src="@/assets/curso/tema3/img03.png", data-aos="zoom-in")
+                    .col-md-8.col-lg-4
+                      figure
+                        img(src="@/assets/curso/tema3/img03.png")
 
-              div(titulo="Sistemas trifásicos")
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-md-12.col-lg-8.mb-4.mb-lg-0
-                    p.mb-3 Es el sistema más robusto y se utiliza ampliamente en industrias, comercios, plantas de producción, ascensores, equipos HVAC, motores y maquinaria especializada. Opera con tres fases y, en la mayoría de aplicaciones, con un neutro.
-                    p.mb-3 Sus tensiones típicas incluyen:
-                    
-                    ul.lista-ul.mb-0
-                      li
-                        i.fas.fa-circle-right.bg-color-17
-                        | 208/120 V.
-                      li
-                        i.fas.fa-circle-right.bg-color-17
-                        | 240 V trifásico.
-                      li
-                        i.fas.fa-circle-right.bg-color-17
-                        | 480 V.
-                      li
-                        i.fas.fa-circle-right.bg-color-17
-                        | 600 V (en algunas instalaciones industriales).
+                div(titulo="Sistemas trifásicos")
+                  .row.justify-content-center.align-items-center.mb-0
+                    .col-md-12.col-lg-8.mb-4.mb-lg-0
+                      p.mb-3 Es el sistema más robusto y se utiliza ampliamente en industrias, comercios, plantas de producción, ascensores, equipos HVAC, motores y maquinaria especializada. Opera con tres fases y, en la mayoría de aplicaciones, con un neutro.
+                      p.mb-3 Sus tensiones típicas incluyen:
+                      
+                      ul.lista-ul.mb-0
+                        li
+                          i.fas.fa-circle-right.bg-color-17
+                          | 208/120 V.
+                        li
+                          i.fas.fa-circle-right.bg-color-17
+                          | 240 V trifásico.
+                        li
+                          i.fas.fa-circle-right.bg-color-17
+                          | 480 V.
+                        li
+                          i.fas.fa-circle-right.bg-color-17
+                          | 600 V (en algunas instalaciones industriales).
 
-                    p.mb-3  El diagrama unifilar muestra tres barras activas (L1, L2, L3), un neutro y una barra de tierra. La distribución equilibrada de las cargas entre las fases es un requisito técnico y normativo.
+                      p.mb-3  El diagrama unifilar muestra tres barras activas (L1, L2, L3), un neutro y una barra de tierra. La distribución equilibrada de las cargas entre las fases es un requisito técnico y normativo.
 
-                    p.mb-0  La identificación correcta del sistema permite dimensionar conductores, barras, protecciones y puesta a tierra conforme a las normas colombianas.
+                      p.mb-0  La identificación correcta del sistema permite dimensionar conductores, barras, protecciones y puesta a tierra conforme a las normas colombianas.
 
-                  .col-md-8.col-lg-4
-                    figure
-                      img(src="@/assets/curso/tema3/img04.png", data-aos="zoom-in")
+                    .col-md-8.col-lg-4
+                      figure
+                        img(src="@/assets/curso/tema3/img04.png")
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -136,46 +137,47 @@
                 i.fas.fa-circle-right.bg-color-17
                 | Los interruptores deben tener capacidad de interrupción suficiente en kiloamperios (kA) según el nivel de cortocircuito disponible en la instalación.
               
-    .container.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .titulo-con-imagen.mb-5(data-aos="fade-right")
-          .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
-            h3.titulo-con-imagen__texto Tipos de dispositivos y su aplicación
+    .bg-full-width.bg-fondo-2
+      .container.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
+              h3.titulo-con-imagen__texto Tipos de dispositivos y su aplicación
             
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.col-lg-4.mb-5.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema3/img07.png", data-aos="zoom-in")
-      .col-md-12.col-lg-8
-        SlyderF(columnas="col-12 col-md-6")
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 01
-              p.mb-0 Interruptores termomagnéticos: su aplicación es universal (residencial, comercial e industrial). Son el "primer frente" para evitar que los cables se quemen por exceso de consumo o fallas directas.
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 02
-              p.mb-0 Interruptores diferenciales (RCD): su aplicación es de seguridad humana. Detectan fugas de corriente mínimas (30mA) que un termomagnético ignoraría, salvando vidas ante contactos accidentales.
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 03
-              p.mb-0 Fusibles de alta capacidad (NH / Cilíndricos): se aplican en cabeceras de tableros o maquinaria pesada. Su ventaja es que pueden interrumpir corrientes de falla altísimas que destruirían a un interruptor común.
-          .tarjeta.bg-color-white.p-2.h-100.box-shadow
-            //- .col-12.mb-0
-            .p-2.mb-0
-              h2.mb-2.mb-lg-1(style="color: #CCDFF8") 04
-              p.mb-0 Relés térmicos y guardamotores: aplicación exclusiva en protección de maquinaria. A diferencia de los anteriores, estos permiten el "pico de arranque" de un motor sin saltar, pero actúan si el motor se calienta por esfuerzo mecánico o falta de una fase.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-8.col-lg-4.mb-5.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema3/img07.png", data-aos="zoom-in")
+        .col-md-12.col-lg-8
+          SlyderF(columnas="col-12 col-md-6")
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 01
+                p.mb-0 Interruptores termomagnéticos: su aplicación es universal (residencial, comercial e industrial). Son el "primer frente" para evitar que los cables se quemen por exceso de consumo o fallas directas.
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 02
+                p.mb-0 Interruptores diferenciales (RCD): su aplicación es de seguridad humana. Detectan fugas de corriente mínimas (30mA) que un termomagnético ignoraría, salvando vidas ante contactos accidentales.
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 03
+                p.mb-0 Fusibles de alta capacidad (NH / Cilíndricos): se aplican en cabeceras de tableros o maquinaria pesada. Su ventaja es que pueden interrumpir corrientes de falla altísimas que destruirían a un interruptor común.
+            .tarjeta.bg-color-white.p-2.h-100.box-shadow
+              //- .col-12.mb-0
+              .p-2.mb-0
+                h2.mb-2.mb-lg-1(style="color: #CCDFF8") 04
+                p.mb-0 Relés térmicos y guardamotores: aplicación exclusiva en protección de maquinaria. A diferencia de los anteriores, estos permiten el "pico de arranque" de un motor sin saltar, pero actúan si el motor se calienta por esfuerzo mecánico o falta de una fase.
 
-    p.mb-4 La tabla a continuación, resume los puntos clave para que pueda identificar cada dispositivo y entender su función principal de un vistazo:
+      p.mb-4 La tabla a continuación, resume los puntos clave para que pueda identificar cada dispositivo y entender su función principal de un vistazo:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-9 
+      .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 3.
+          h5.text-bold Tabla 3.
           span Guía para identificación visual de protecciones eléctricas
         .tabla-a.color-acento-contenido.mb-0
           table
@@ -242,26 +244,27 @@
             
         p.mb-0 Este esquema exige el uso de protección diferencial obligatoria, dado que la impedancia de la tierra del usuario puede ser elevada
 
-    .container.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .titulo-con-imagen.mb-5(data-aos="fade-right")
-          .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
-            h3.titulo-con-imagen__texto Esquema TN
+    .bg-full-width.bg-fondo-2
+      .container.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
+              h3.titulo-con-imagen__texto Esquema TN
 
-    .row.justify-content-center.align-items-center.mb-5
-      
-      .bg-color-1.p-4.bg-tarjeta
-        .row.align-items-center
-          .col
-            p.mb-3 El esquema TN es el sistema de puesta a tierra más utilizado en instalaciones industriales y en edificaciones de gran tamaño que cuentan con transformador propio. Su funcionamiento consiste en conectar las partes metálicas expuestas de los equipos, como carcasas o estructuras, directamente al conductor neutro proveniente del transformador. 
+      .row.justify-content-center.align-items-center.mb-5
+        
+        .bg-color-1.p-4.bg-tarjeta
+          .row.align-items-center
+            .col
+              p.mb-3 El esquema TN es el sistema de puesta a tierra más utilizado en instalaciones industriales y en edificaciones de gran tamaño que cuentan con transformador propio. Su funcionamiento consiste en conectar las partes metálicas expuestas de los equipos, como carcasas o estructuras, directamente al conductor neutro proveniente del transformador. 
 
-            p.mb-0 Presenta variantes (TN-C, TN-S, TN-C-S) y se caracteriza porque el neutro y las masas comparten el mismo sistema de tierra o conductor de protección y ofrece una trayectoria de falla más baja y rápida.
+              p.mb-0 Presenta variantes (TN-C, TN-S, TN-C-S) y se caracteriza porque el neutro y las masas comparten el mismo sistema de tierra o conductor de protección y ofrece una trayectoria de falla más baja y rápida.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 4.
+          h5.text-bold Tabla 4.
           span Comparativo entre esquemas TN
         .tabla-a.color-acento-contenido.mb-0
           table
@@ -320,26 +323,26 @@
 
             
     .row.justify-content-center.mb-5
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
+      .col-md-6.col-lg-6.mb-4.mb-lg-3
         .tarjeta-numerada.color-primario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 1
           p.text-center En TT, la barra de tierra no debe unirse a la barra de neutro.
 
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
+      .col-md-6.col-lg-6.mb-4.mb-lg-3
         .tarjeta-numerada.color-primario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 2
           p.text-center En TN-S, la barra PE (tierra) y N (neutro) se separan desde la acometida.
 
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
+      .col-md-6.col-lg-6.mb-4.mb-lg-3
         .tarjeta-numerada.color-primario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 3
           p.text-center En TN-C, el conductor PEN debe estar correctamente dimensionado.
 
 
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
+      .col-md-6.col-lg-6.mb-4.mb-lg-3
         .tarjeta-numerada.color-primario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 4
@@ -460,100 +463,101 @@
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.5 Interpretación del diseño esquemático (diagrama unifilar)
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-9.order-2.order-lg-1
-        p.mb-3 El diagrama unifilar es el documento técnico más relevante del tablero de distribución. En él se representa de forma simplificada todo el sistema eléctrico: desde la acometida hasta los circuitos derivados. Es obligatorio según el RETIE, y la NTC 2050 exige que toda instalación cuente con planos y diagramas actualizados.
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-9.order-2.order-lg-1
+          p.mb-3 El diagrama unifilar es el documento técnico más relevante del tablero de distribución. En él se representa de forma simplificada todo el sistema eléctrico: desde la acometida hasta los circuitos derivados. Es obligatorio según el RETIE, y la NTC 2050 exige que toda instalación cuente con planos y diagramas actualizados.
 
-        p.mb-0 Un diagrama unifilar completo debe incluir los principales componentes que conforman la instalación eléctrica. Entre los elementos más importantes se encuentran:
+          p.mb-0 Un diagrama unifilar completo debe incluir los principales componentes que conforman la instalación eléctrica. Entre los elementos más importantes se encuentran:
 
-      .col-md-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema3/img17.png", data-aos="zoom-in")
+        .col-md-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema3/img17.png", data-aos="zoom-in")
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.col-lg-4.mb-5.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema3/img18.png", data-aos="zoom-in")
-      .col-md-12.col-lg-8
-        SlyderF(columnas="col-12 col-md-6")
-          .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
-            .p-2.mb-0
-              h4 Acometida o alimentación principal
-              p.mb-0 Es el punto donde la instalación recibe la energía proveniente de la red eléctrica o del transformador.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-8.col-lg-4.mb-5.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema3/img18.png", data-aos="zoom-in")
+        .col-md-12.col-lg-8
+          SlyderF(columnas="col-12 col-md-6")
+            .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
+              .p-2.mb-0
+                h4 Acometida o alimentación principal
+                p.mb-0 Es el punto donde la instalación recibe la energía proveniente de la red eléctrica o del transformador.
 
-          .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
-            .p-2.mb-0
-              h4 Interruptor general
-              p.mb-0 Es el dispositivo principal de protección y maniobra del tablero. Permite desconectar toda la instalación en caso de mantenimiento o emergencia.
+            .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
+              .p-2.mb-0
+                h4 Interruptor general
+                p.mb-0 Es el dispositivo principal de protección y maniobra del tablero. Permite desconectar toda la instalación en caso de mantenimiento o emergencia.
 
-          .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
-            .p-2.mb-0
-              h4 Barras de fase, neutro y tierra
-              p.mb-0 Son los conductores internos del tablero que permiten distribuir la energía hacia los diferentes circuitos.
+            .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
+              .p-2.mb-0
+                h4 Barras de fase, neutro y tierra
+                p.mb-0 Son los conductores internos del tablero que permiten distribuir la energía hacia los diferentes circuitos.
 
-          .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
-            .p-2.mb-0
-              h4 Circuitos derivados y sus protecciones
-              p.mb-0 Cada circuito debe tener su propio dispositivo de protección, como interruptores automáticos o fusibles.
+            .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
+              .p-2.mb-0
+                h4 Circuitos derivados y sus protecciones
+                p.mb-0 Cada circuito debe tener su propio dispositivo de protección, como interruptores automáticos o fusibles.
 
-          .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
-            .p-2.mb-0
-              h4 Nivel de tensión del sistema
-              p.mb-0 El diagrama debe indicar el voltaje de operación del sistema, por ejemplo: 
-              ul.lista-ul.mb-0
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-17
-                  | 120 V
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-17
-                  | 208 V
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-17
-                  | 220 V
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-17
-                  | 480 V
+            .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
+              .p-2.mb-0
+                h4 Nivel de tensión del sistema
+                p.mb-0 El diagrama debe indicar el voltaje de operación del sistema, por ejemplo: 
+                ul.lista-ul.mb-0
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-17
+                    | 120 V
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-17
+                    | 208 V
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-17
+                    | 220 V
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-17
+                    | 480 V
 
-          .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
-            .p-2.mb-0
-              h4 Capacidad nominal de los dispositivos
-              p.mb-0 Se deben especificar los valores de corriente de los dispositivos de protección, por ejemplo:
-              ul.lista-ul.mb-0
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-17
-                  | Interruptor 20 A
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-17
-                  | Interruptor 40 A
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-17
-                  | Interruptor 100 A
+            .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
+              .p-2.mb-0
+                h4 Capacidad nominal de los dispositivos
+                p.mb-0 Se deben especificar los valores de corriente de los dispositivos de protección, por ejemplo:
+                ul.lista-ul.mb-0
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-17
+                    | Interruptor 20 A
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-17
+                    | Interruptor 40 A
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-17
+                    | Interruptor 100 A
 
-          .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
-            .p-2.mb-0
-              h4 Esquema de puesta a tierra
-              p.mb-0 Debe indicarse cómo se conecta el sistema de puesta a tierra, un elemento esencial para la seguridad eléctrica.
+            .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
+              .p-2.mb-0
+                h4 Esquema de puesta a tierra
+                p.mb-0 Debe indicarse cómo se conecta el sistema de puesta a tierra, un elemento esencial para la seguridad eléctrica.
 
-          .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
-            .p-2.mb-0
-              h4 Identificación de los circuitos
-              p.mb-0 Cada circuito debe estar claramente identificado, por ejemplo:
-              ul.lista-ul.mb-0
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-17
-                  | Circuito iluminación
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-17
-                  | Circuito tomacorrientes
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-17
-                  | Circuito aire acondicionado
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-17
-                  | Circuito motores
+            .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
+              .p-2.mb-0
+                h4 Identificación de los circuitos
+                p.mb-0 Cada circuito debe estar claramente identificado, por ejemplo:
+                ul.lista-ul.mb-0
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-17
+                    | Circuito iluminación
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-17
+                    | Circuito tomacorrientes
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-17
+                    | Circuito aire acondicionado
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-17
+                    | Circuito motores
 
-    p.mb-4  La correcta interpretación del diagrama unifilar permite determinar si el tablero cumple con la normatividad, si está bien distribuido, si las protecciones son adecuadas y si la instalación es segura.
+      p.mb-4  La correcta interpretación del diagrama unifilar permite determinar si el tablero cumple con la normatividad, si está bien distribuido, si las protecciones son adecuadas y si la instalación es segura.
 
 
     .row.justify-content-center.align-items-center.mb-5

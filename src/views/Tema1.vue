@@ -28,40 +28,41 @@
         .tarjeta.bg-color-4.p-3.mb-3.br-15
           p.mb-0.text-center En Colombia, la regulación de las instalaciones eléctricas se fundamenta en dos pilares principales: la Norma RETIE y Norma NTC 2050. La combinación de ambas forma el Marco obligatorio para el diseño y montaje de tableros de distribución en nuestro país. 
 
-    .row.justify-content-center.mb-5
-      .col-xl-6.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").tarjeta
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/tema1/img-2.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 RETIE:
-            p.mb-3 Reglamento obligatorio para garantizar seguridad eléctrica, protección a la vida humana y preservación ambiental.
-            p.mb-0 Su alcance va enfocado a todas las instalaciones nuevas o modificadas, públicas y privadas.
-    
-      .col-xl-6.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").tarjeta
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/tema1/img-3.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 NTC 2050: Código Eléctrico Colombiano basado en NFPA 70.
-            p.mb-0 Su alcance va enfocado a todos los requisitos técnicos mínimos para la construcción segura de instalaciones eléctricas.
-            
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.mb-0
-        .tarjeta.color-primario.p-2.banner_tarjeta
-          .row.justify-content-around.align-items-center.p-3
-            .col-auto
-              img(src="@/assets/curso/tema1/img-4.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0 El RETIE vigente (Resolución 40117 de 2024 y sus ajustes de 2025) define criterios esenciales que deben aplicarse en sistemas de generación, transformación, distribución y utilización de energía.
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.minenergia.gov.co/es/misional/energia-electrica-2/reglamentos-tecnicos/reglamento-t%C3%A9cnico-de-instalaciones-el%C3%A9ctricas-retie/" target="_blank")
-                    span Enlace web
-                    i.fas.fa-link
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.mb-5
+        .col-xl-6.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema1/img-2.png", alt="alt")
+            .crd_hover_txt--body
+              h4.mb-3 RETIE:
+              p.mb-3 Reglamento obligatorio para garantizar seguridad eléctrica, protección a la vida humana y preservación ambiental.
+              p.mb-0 Su alcance va enfocado a todas las instalaciones nuevas o modificadas, públicas y privadas.
+      
+        .col-xl-6.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema1/img-3.png", alt="alt")
+            .crd_hover_txt--body
+              h4.mb-3 NTC 2050: Código Eléctrico Colombiano basado en NFPA 70.
+              p.mb-0 Su alcance va enfocado a todos los requisitos técnicos mínimos para la construcción segura de instalaciones eléctricas.
+              
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10.mb-0
+          .tarjeta.color-primario.p-2.banner_tarjeta
+            .row.justify-content-around.align-items-center.p-3
+              .col-auto
+                img(src="@/assets/curso/tema1/img-4.svg").img65
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.mb-0 El RETIE vigente (Resolución 40117 de 2024 y sus ajustes de 2025) define criterios esenciales que deben aplicarse en sistemas de generación, transformación, distribución y utilización de energía.
+                  .col-sm-auto
+                    a.boton.color-acento-botones(href="https://www.minenergia.gov.co/es/misional/energia-electrica-2/reglamentos-tecnicos/reglamento-t%C3%A9cnico-de-instalaciones-el%C3%A9ctricas-retie/" target="_blank")
+                      span Enlace web
+                      i.fas.fa-link
        
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-8.col-lg-4.mb-4.mb-lg-0
@@ -84,18 +85,19 @@
     
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-10(data-aos="fade-up")
-            p.banner-text El RETIE es, ante todo, un reglamento orientado a la protección integral. Su finalidad es reducir al mínimo los riesgos asociados con la electricidad, asegurando que las instalaciones eléctricas no generen peligros para las personas, los animales, el medio ambiente ni los bienes. Esto significa que cualquier tablero - sin importar su tamaño, función o ubicación - debe cumplir un conjunto estricto de requisitos que permiten prevenir descargas eléctricas, incendios, quemaduras, fallas de aislamiento, cortocircuitos no controlados y otros riesgos asociados.
+            p.banner-text.bg-color-18 El RETIE es, ante todo, un reglamento orientado a la protección integral. Su finalidad es reducir al mínimo los riesgos asociados con la electricidad, asegurando que las instalaciones eléctricas no generen peligros para las personas, los animales, el medio ambiente ni los bienes. Esto significa que cualquier tablero - sin importar su tamaño, función o ubicación - debe cumplir un conjunto estricto de requisitos que permiten prevenir descargas eléctricas, incendios, quemaduras, fallas de aislamiento, cortocircuitos no controlados y otros riesgos asociados.
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 1.
-          span Protecciones eléctricas y su función en el circuito
-        figure.mb-2
-          img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema1/img-7.svg", alt="La figura 1 ilustra los elementos esenciales de seguridad en el RETIE. - Protección de vida humana. - Protección de instalaciones. - Protección ambiental. - Conformidad técnica.  Nota. Adaptado de RETIE. Resolución 40117 de 2024.")
-          img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img-8.svg", alt="La figura 1 ilustra los elementos esenciales de seguridad en el RETIE. - Protección de vida humana. - Protección de instalaciones. - Protección ambiental. - Conformidad técnica.  Nota. Adaptado de RETIE. Resolución 40117 de 2024.")
-        figcaption <strong>Nota.</strong> Adaptado de RETIE. Resolución 40117 de 2024.
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-4
+            h5.text-bold Figura 1.
+            span Protecciones eléctricas y su función en el circuito
+          figure.mb-2
+            img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema1/img-7.svg", alt="La figura 1 ilustra los elementos esenciales de seguridad en el RETIE. - Protección de vida humana. - Protección de instalaciones. - Protección ambiental. - Conformidad técnica.  Nota. Adaptado de RETIE. Resolución 40117 de 2024.")
+            img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img-8.svg", alt="La figura 1 ilustra los elementos esenciales de seguridad en el RETIE. - Protección de vida humana. - Protección de instalaciones. - Protección ambiental. - Conformidad técnica.  Nota. Adaptado de RETIE. Resolución 40117 de 2024.")
+          figcaption <strong>Nota.</strong> Adaptado de RETIE. Resolución 40117 de 2024.
 
 
     //- .bg-full-width.bg-fondo-1.mb-2.p-4.p-lg-5
@@ -239,42 +241,46 @@
 
     separador
 
-    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.4 Relación RETIE, NTC 2050 y estándares internacionales
+    .bg-full-width.bg-fondo-2
+      #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 1.4 Relación RETIE, NTC 2050 y estándares internacionales
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
-        p.mb-3 Un tablero no es simplemente un conjunto de interruptores y barras; es un sistema integrado que debe cumplir simultáneamente con normas nacionales e internacionales. Por eso, en la construcción de tableros se aplican también los estándares internacionales UL (Underwriters Laboratories), IEC (International Electrotechnical Commission) y NEMA (National Electrical Manufacturers Association), que regulan aspectos como:
-        p.mb-0 En el contexto colombiano, estos estándares se articulan de la siguiente manera:
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
+          p.mb-3 Un tablero no es simplemente un conjunto de interruptores y barras; es un sistema integrado que debe cumplir simultáneamente con normas nacionales e internacionales. Por eso, en la construcción de tableros se aplican también los estándares internacionales UL (Underwriters Laboratories), IEC (International Electrotechnical Commission) y NEMA (National Electrical Manufacturers Association), que regulan aspectos como:
+          p.mb-0 En el contexto colombiano, estos estándares se articulan de la siguiente manera:
 
-      .col-md-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema1/img-13.png", data-aos="zoom-in")
+        .col-md-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema1/img-13.png", data-aos="zoom-in")
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.col-lg-4.mb-5.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema1/img-14.png", data-aos="zoom-in")
-      .col-md-12.col-lg-8
-        SlyderF(columnas="col-12 col-md-6")
-          .tarjeta.bg-color-white.p-4.h-100.box-shadow
-            figure.p-2.mb-2
-              img(src="@/assets/curso/tema1/img-25.svg", alt="Corriente alterna", style="max-width: 65px; height: 57px").mx-auto
-            .p-2.mb-0
-              p.mb-0.text-center RETIE exige la seguridad general.
-        
-          .tarjeta.bg-color-white.p-4.h-100.box-shadow
-            figure.p-2.mb-2
-              img(src="@/assets/curso/tema1/img-26.svg", alt="Corriente alterna", style="max-width: 65px; height: 57px").mx-auto
-            .p-2.mb-0
-              p.mb-0.text-center NTC 2050 define requisitos técnicos mínimos.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-12.mb-4.mb-lg-0
+          .bg-color-18.p-4.mb-3
+            .row.align-items-center
+              .col-md-8.col-lg-4.mb-5.mb-lg-0
+                figure
+                  img(src="@/assets/curso/tema1/img-14.png", data-aos="zoom-in")
+              .col-md-12.col-lg-8
+                SlyderF(columnas="col-12 col-md-6")
+                  .tarjeta.bg-color-white.p-4.h-100.box-shadow
+                    figure.p-2.mb-2
+                      img(src="@/assets/curso/tema1/img-25.svg", alt="Corriente alterna", style="max-width: 65px; height: 57px").mx-auto
+                    .p-2.mb-0
+                      p.mb-0.text-center RETIE exige la seguridad general.
           
-          .tarjeta.bg-color-white.p-4.h-100.box-shadow
-            figure.p-2.mb-2
-              img(src="@/assets/curso/tema1/img-27.svg", alt="Corriente alterna", style="max-width: 65px; height: 57px").mx-auto
-            .p-2.mb-0
-              p.mb-0.text-center Normas UL / IEC / NEMA aseguran que cada componente cumpla especificaciones internacionales.
+                  .tarjeta.bg-color-white.p-4.h-100.box-shadow
+                    figure.p-2.mb-2
+                      img(src="@/assets/curso/tema1/img-26.svg", alt="Corriente alterna", style="max-width: 65px; height: 57px").mx-auto
+                    .p-2.mb-0
+                      p.mb-0.text-center NTC 2050 define requisitos técnicos mínimos.
+                  
+                  .tarjeta.bg-color-white.p-4.h-100.box-shadow
+                    figure.p-2.mb-2
+                      img(src="@/assets/curso/tema1/img-27.svg", alt="Corriente alterna", style="max-width: 65px; height: 57px").mx-auto
+                    .p-2.mb-0
+                      p.mb-0.text-center Normas UL / IEC / NEMA aseguran que cada componente cumpla especificaciones internacionales.
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -288,7 +294,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 1.
+          h5.text-bold Tabla 1.
           span Relación entre las normas RETIE, NTC 2050 y normas internacionales
         .tabla-a.color-acento-contenido.mb-0
           table
