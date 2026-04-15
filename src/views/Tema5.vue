@@ -63,6 +63,9 @@
             li
               i.fas.fa-circle-right.bg-color-17
               | Canalización interna con cables mezclados sin guía.
+            li
+              i.fas.fa-circle-right.bg-color-17
+              | Barra de neutro (N) aislada que debería mantenerse independiente de PE en tableros derivados.
       .col-md-8.col-lg-4
         img(src="@/assets/curso/tema5/img06.png", alt="Imagen decorativa")
 
@@ -117,7 +120,7 @@
         p.mb-3 Los tableros industriales presentan exigencias superiores debido a que manejan mayores corrientes, más circuitos, diferentes tipos de carga y condiciones ambientales más estrictas. Además, deben cumplir con requisitos específicos de selectividad, cortocircuito, protecciones avanzadas y coordinación entre dispositivos.
         .tarjeta.bg-color-18.p-3.mb-3.br-15
           p.mb-0 Consideremos el siguiente caso de estudio. Una planta alimentaria instala un tablero trifásico de 400 A para alimentar bombas, motores, equipos de refrigeración, luminarias y tomas industriales. El tablero está ubicado en un cuarto eléctrico dedicado, con ventilación mecánica y acceso controlado.
-        p.mb-0 Durante una inspección interna, se encuentran se evidencian varios puntos a mejorar:
+        p.mb-0 Durante una inspección interna, se encuentran, se evidencian varios puntos a mejorar:
     
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-10
@@ -127,7 +130,7 @@
         figure.mb-2
           img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema5/img08.svg", alt="La figura 3 muestra una sala eléctrica con tablero switchgear trifásico de varias celdas. Sobre la imagen se indican cinco observaciones: falta de coordinación de protecciones; kA de interrupción insuficiente; diagrama unifilar desactualizado; carencia de barreras internas; y grado de protección del gabinete. En el piso se ve una franja de seguridad que delimita 1 metro de espacio de trabajo.")
           img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema5/img09.svg", alt="La figura 3 muestra una sala eléctrica con tablero switchgear trifásico de varias celdas. Sobre la imagen se indican cinco observaciones: falta de coordinación de protecciones; kA de interrupción insuficiente; diagrama unifilar desactualizado; carencia de barreras internas; y grado de protección del gabinete. En el piso se ve una franja de seguridad que delimita 1 metro de espacio de trabajo.")
-        figcaption <strong>Nota.</strong> SENA, (2026).
+        figcaption <strong>Nota.</strong> Adaptado de RETIE (2024), NTC 2050 (2023), IEC 61439 (2024).
   
 
     .bg-full-width.bg-fondo-2
@@ -309,7 +312,7 @@
 
     separador
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 5.4 Checklist técnico de cumplimiento RETIE–NTC
+      h2 5.4 <em>Checklist</em> técnico de cumplimiento RETIE–NTC
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
@@ -317,7 +320,7 @@
     
         .row.justify-content-center.align-items-center.z-2
           .col-lg-10(data-aos="fade-up")
-            p.banner-text El checklist técnico permite evaluar de forma sistemática el cumplimiento de un tablero antes de la inspección oficial. Aunque cada instalación tiene particularidades, un buen checklist general debe incluir los siguientes aspectos:
+            p.banner-text El <em>checklist</em> técnico permite evaluar de forma sistemática el cumplimiento de un tablero antes de la inspección oficial. Aunque cada instalación tiene particularidades, un buen <em>checklist</em> general debe incluir los siguientes aspectos:
 
     .row.justify-content-center.align-items-center.mb-0.mb-lg-5
       .col-md-8.col-lg-6.mb-4.mb-lg-0

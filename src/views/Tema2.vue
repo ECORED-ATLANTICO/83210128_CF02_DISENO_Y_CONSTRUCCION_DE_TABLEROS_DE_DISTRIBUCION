@@ -92,7 +92,7 @@
           p.mb-3  Uno de los aspectos que más determina la seguridad del tablero es el material con el que se fabrica su gabinete. El RETIE exige que los tableros soporten condiciones ambientales del lugar donde serán instalados, lo que implica que su diseño debe contemplar riesgos como humedad, polvo, choques mecánicos o atmósferas corrosivas. Por este motivo, la selección del gabinete depende tanto del entorno como del tipo de instalación.
           .tarjeta.bg-color-19.p-3.mb-3.br-15
             p.mb-0 Los tableros pueden construirse en lámina de acero rolado en frío, acero inoxidable, aluminio o polímeros con características aislantes. Cuando se emplean láminas metálicas, estas deben estar tratadas con pintura electrostática resistente a la corrosión y deben cumplir un nivel de hermeticidad acorde con el ambiente en el que se ubiquen. En zonas con presencia de polvo o salinidad, por ejemplo, un gabinete con un grado de protección IP54 o superior resulta necesario para evitar fallas prematuras.
-          p.mb-0 El sistema de clasificación IP (Ingress Protection) permite identificar el nivel de protección contra el ingreso de sólidos y líquidos. En general:
+          p.mb-0 El sistema de clasificación IP (<em>Ingress Protection</em>) permite identificar el nivel de protección contra el ingreso de sólidos y líquidos. En general:
 
 
         .col-md-8.col-lg-4
@@ -293,7 +293,7 @@
       .col-md-12.col-lg-8
         p.mb-3 El RETIE complementa esta exigencia indicando que los tableros deben ubicarse en zonas secas, accesibles y protegidas contra riesgos mecánicos o atmosféricos.
 
-        p.mb-0 Para entenderlo mejor, imaginemos un tablero ubicado en un cuarto de bombas. Si este se instala demasiado cerca de tuberías expuestas o sin espacio frontal, se incrementa el riesgo de electrocución, caídas o accidentes durante una intervención. Estas condiciones no solo representan un peligro, sino que también impiden obtener la certificación de conformidad requerida para su puesta en servicio
+        p.mb-0 Para entenderlo mejor, imaginemos un tablero ubicado en un cuarto de bombas. Si este se instala demasiado cerca de tuberías expuestas o sin espacio frontal, se incrementa el riesgo de electrocución, caídas o accidentes durante una intervención. Estas condiciones no solo representan un peligro, sino que también impiden obtener la certificación de conformidad requerida para su puesta en servicio.
 
     .container.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -305,7 +305,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-md-12.col-lg-5.mb-4.mb-lg-0
           p.mb-3 Un pequeño supermercado ubica su tablero principal en un cuarto de almacenamiento donde se apilan cajas y productos alrededor del gabinete. Aunque el tablero opera aparentemente bien, la normativa considera esta instalación como insegura, pues no permite un acceso libre al tablero y representa un riesgo de incendio al encontrarse cercano a materiales combustibles. La inspección RETIE, en este caso, determinaría una no conformidad mayor y exigiría reubicar el tablero o despejar el área con barreras físicas.
-          p.mb-0 Antes de avanzar a la siguiente unidad, lo invitamos a escuchar el siguiente podcast, donde se contextualiza de manera clara y práctica la importancia de la normatividad en el diseño y la seguridad de los tableros de distribución.
+          p.mb-0 Antes de avanzar a la siguiente unidad, lo invitamos a escuchar el siguiente <em>podcast</em>, donde se contextualiza de manera clara y práctica la importancia de la normatividad en el diseño y la seguridad de los tableros de distribución.
 
       .col-md-12.col-lg-7
         .row.bg-color-4.align-items-center.justify-content-center.br-15
@@ -314,11 +314,11 @@
               img(src="@/assets/curso/tema2/img13.png", data-aos="zoom-in").mx-auto
           .col-lg-8.order-1.order-md-1.order-lg-2.p-4.p-lg-5  
             h4.mb-3 ¿Sabías qué?
-            p.mb-3 Lo invitamos a escuchar el siguiente podcast:
+            p.mb-3 Lo invitamos a escuchar el siguiente <em>podcast</em>:
             TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-              texto="“Charlas que venden” Episodio: Definir algunos principios básicos"
+              texto="Normatividad y requisitos técnicos para tableros de distribución"
               tiempo
-              :audio="require('@/assets/curso/audio/1.mp3')"
+              :audio="require('@/assets/curso/audio/Podcast_1_CF02_83210128.mp3')"
             )
 
 </template>

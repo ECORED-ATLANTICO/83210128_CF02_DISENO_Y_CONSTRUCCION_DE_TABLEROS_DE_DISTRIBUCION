@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Fundamentos de electricidad
+      h1 Marco normativo del sistema eléctrico colombiano
       
       
     .container.justify-content-center.mb-3
@@ -46,7 +46,7 @@
               figure
                 img(src="@/assets/curso/tema1/img-3.png", alt="alt")
             .crd_hover_txt--body
-              h4.mb-3 NTC 2050: Código Eléctrico Colombiano basado en NFPA 70.
+              h4.mb-3 NTC 2050: Código Eléctrico Colombiano basado en NFPA 70:
               p.mb-0 Su alcance va enfocado a todos los requisitos técnicos mínimos para la construcción segura de instalaciones eléctricas.
               
       .row.justify-content-center.align-items-center.mb-5
@@ -93,7 +93,7 @@
         .col-md-12.col-lg-10
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold Figura 1.
-            span Protecciones eléctricas y su función en el circuito
+            span Elementos esenciales de seguridad en el RETIE
           figure.mb-2
             img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema1/img-7.svg", alt="La figura 1 ilustra los elementos esenciales de seguridad en el RETIE. - Protección de vida humana. - Protección de instalaciones. - Protección ambiental. - Conformidad técnica.  Nota. Adaptado de RETIE. Resolución 40117 de 2024.")
             img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img-8.svg", alt="La figura 1 ilustra los elementos esenciales de seguridad en el RETIE. - Protección de vida humana. - Protección de instalaciones. - Protección ambiental. - Conformidad técnica.  Nota. Adaptado de RETIE. Resolución 40117 de 2024.")
@@ -337,6 +337,7 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.5 Responsabilidades del diseñador, instalador e inspector
 
+    p.mb-4 La normatividad eléctrica vigente en Colombia asigna responsabilidades específicas a cada profesional involucrado en el proceso de diseño y construcción de tableros de distribución: 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8.col-lg-4.mb-4.mb-lg-0

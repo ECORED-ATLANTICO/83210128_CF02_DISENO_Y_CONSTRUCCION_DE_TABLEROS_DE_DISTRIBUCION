@@ -154,7 +154,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Ingrese a este enlace de video a continuación, para profundizar sobre la importancia de la señalización eléctrica:
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=24FRFLwRQL0" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=ZIlJkd8KirQ" target="_blank")
                     span Enlace web
                     i.fas.fa-link
 

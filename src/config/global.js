@@ -223,7 +223,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA2_83210128_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -369,25 +369,21 @@ export default {
     {
       termino: 'Unidad funcional (celda)',
       significado:
-        'Compartimiento independiente dentro de un switchgear que agrupa protecciones y barras de un circuito específico.',
+        'Compartimiento independiente dentro de un <em>switchgear</em> que agrupa protecciones y barras de un circuito específico.',
     },
   ],
   referencias: [
     {
       referencia:
         'ABB. (2023). <em>Guía técnica de tableros eléctricos de baja tensión</em>. ABB Group.',
-      link:
-        'https://library.abb.com/public/8f6d8f6a2a214a42a738a49a8b7a29bd/Guia_tecnica_tableros_baja_tension.pdf',
     },
     {
       referencia:
         'Comisión Electrotécnica Internacional. (2024). <em>IEC 60364: Electrical installations for buildings</em>. IEC.',
-      link: 'https://webstore.iec.ch/publication/60364',
     },
     {
       referencia:
         'Comisión Electrotécnica Internacional. (2024). <em>IEC 61439: Low-voltage switchgear and controlgear assemblies</em>. IEC.',
-      link: 'https://webstore.iec.ch/publication/61439',
     },
     {
       referencia:
@@ -414,24 +410,18 @@ export default {
     {
       referencia:
         'Schneider Electric. (2023). <em>Principios básicos de distribución eléctrica en baja tensión</em>. Schneider Electric.',
-      link:
-        'https://download.schneider-electric.com/files?p_Doc_Ref=ECT1904001_ES',
     },
     {
       referencia:
         'Siemens. (2024). <em>Electrical Distribution Handbook</em>. Siemens AG.',
-      link:
-        'https://assets.new.siemens.com/siemens/assets/api/uuid:ee6bd1fb-ff2d-4de5-9dbf-6255e819e939/electrical-distribution-handbook.pdf',
     },
     {
       referencia:
         'Universidad Nacional de Colombia. (2023). <em>Seguridad eléctrica: fundamentos y normatividad aplicable</em>. Repositorio UNAL.',
-      link: 'https://repositorio.unal.edu.co/handle/unal/79776',
     },
     {
       referencia:
         'U.S. Department of Energy. (2024). <em>Electrical Safety Guidelines</em>. Office of Energy Efficiency & Renewable Energy.',
-      link: 'https://www.energy.gov/ehss/electrical-safety',
     },
   ],
   creditos: [
@@ -465,7 +455,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta',
+          nombre: 'Andrés Felipe Herrera Roldan',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },

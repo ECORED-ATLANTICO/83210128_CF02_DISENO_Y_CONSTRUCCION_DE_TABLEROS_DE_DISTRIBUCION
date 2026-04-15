@@ -29,7 +29,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-12
               AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-21")
-                div(titulo="Sistemas monofásicos")
+                div(titulo="Sistema monofásico")
                   .row.justify-content-center.align-items-center.mb-0
                     .col-md-12.col-lg-8.mb-4.mb-lg-0
                       p.mb-3  Es típico de residencias y pequeños comercios. Está compuesto por una fase y un neutro, y se acompaña de un conductor de protección (tierra). Generalmente opera a 120 V o 120 / 240 V, dependiendo del transformador de la red de distribución.
@@ -40,7 +40,7 @@
                         img(src="@/assets/curso/tema3/img02.png")
 
                   
-                div(titulo="Sistemas bifásicos")
+                div(titulo="Sistema bifásico")
                   .row.justify-content-center.align-items-center.mb-0
                     .col-md-12.col-lg-8.mb-4.mb-lg-0
                       p.mb-3  Este sistema, comúnmente denominado “bifásico”, corresponde a instalaciones que requieren dos fases de un sistema trifásico o una derivación desde un transformador con toma central. Sus tensiones habituales son 120 / 240 V o 208 / 120 V. Ofrece mayor capacidad que el monofásico y permite la alimentación de electrodomésticos de alta demanda o equipos más exigentes.
@@ -50,7 +50,7 @@
                       figure
                         img(src="@/assets/curso/tema3/img03.png")
 
-                div(titulo="Sistemas trifásicos")
+                div(titulo="Sistema trifásico")
                   .row.justify-content-center.align-items-center.mb-0
                     .col-md-12.col-lg-8.mb-4.mb-lg-0
                       p.mb-3 Es el sistema más robusto y se utiliza ampliamente en industrias, comercios, plantas de producción, ascensores, equipos HVAC, motores y maquinaria especializada. Opera con tres fases y, en la mayoría de aplicaciones, con un neutro.
@@ -136,6 +136,9 @@
               li.mb-2
                 i.fas.fa-circle-right.bg-color-17
                 | Los interruptores deben tener capacidad de interrupción suficiente en kiloamperios (kA) según el nivel de cortocircuito disponible en la instalación.
+              li.mb-0
+                i.fas.fa-circle-right.bg-color-17
+                | No se permite anular o puentear protecciones de manera permanente.
               
     .bg-full-width.bg-fondo-2
       .container.justify-content-center.align-items-center.mb-5
@@ -185,8 +188,8 @@
             thead
               tr
                 th Dispositivo
-                th Aplicación Principal
-                th Guía de Identificación Visual
+                th Aplicación principal
+                th Guía de identificación visual
             tbody
               tr
                 td(style="text-align: left") Interruptor termomagnético.
@@ -240,7 +243,7 @@
           img(src="@/assets/curso/tema3/img08.png", data-aos="zoom-in")
       .col-md-12.col-lg-7
         .tarjeta.bg-color-4.p-4.mb-3.br-15
-          p.mb-0 Sus siglas definen su arquitectura. T (Neutro del transformador a Tierra) y T (Masas del usuario a una Tierra independiente). En este sistema el neutro del transformador está aterrizado. Las masas metálicas del usuario también están conectadas a tierra mediante un electrodo independiente.
+          p.mb-0 Sus siglas definen su arquitectura. T (Neutro del transformador a tierra) y T (Masas del usuario a una tierra independiente). En este sistema el neutro del transformador está aterrizado. Las masas metálicas del usuario también están conectadas a tierra mediante un electrodo independiente.
             
         p.mb-0 Este esquema exige el uso de protección diferencial obligatoria, dado que la impedancia de la tierra del usuario puede ser elevada
 
@@ -277,7 +280,7 @@
                 th TN-C-S
             tbody
               tr
-                td(style="text-align: left") Conductor PEN (Protective Earth + Neutral).
+                td(style="text-align: left") Conductor PEN (<em>Protective Earth + Neutral</em>).
                 td(style="text-align: left") En toda la red.
                 td(style="text-align: left") No existe.
                 td(style="text-align: left") Solo hasta el cuadro general.
@@ -312,14 +315,14 @@
         .tarjeta.bg-color-4.p-4.mb-3.br-15
           p.mb-0 El esquema IT, conocido como sistema de neutro aislado, se caracteriza por priorizar la continuidad del servicio eléctrico. A diferencia de los sistemas convencionales utilizados en instalaciones domésticas, el conductor neutro no se conecta directamente a tierra o lo hace mediante una impedancia elevada. 
 
-        p.mb-0 Gracias a esta configuración, cuando ocurre una primera falla de aislamiento o una fuga a tierra, la instalación puede continuar operando sin que se produzca una interrupción inmediata del suministro eléctrico
+        p.mb-0 Gracias a esta configuración, cuando ocurre una primera falla de aislamiento o una fuga a tierra, la instalación puede continuar operando sin que se produzca una interrupción inmediata del suministro eléctrico.
 
     .container.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
             img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
-            h3.titulo-con-imagen__texto Puntos claves
+            h3.titulo-con-imagen__texto Puntos clave
 
             
     .row.justify-content-center.mb-5
@@ -390,7 +393,7 @@
             .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
               h4.mb-3 Selectividad amperimétrica
               p.mb-3 Se basa en la corriente nominal de los dispositivos de protección. El interruptor que protege el circuito final tiene una corriente menor que el interruptor general.
-              p.mb-0 <strong>Ejemplo:</strong><br>Interruptor circuito iluminación → 20 A<br>Interruptor tablero general → 80 A<br>En caso de sobrecorriente, dispara primero el interruptor de 20 A.
+              p.mb-0 <strong>Ejemplo:</strong><br>Interruptor circuito iluminación → 20 A.<br>Interruptor tablero general → 80 A.<br>En caso de sobrecorriente, dispara primero el interruptor de 20 A.
 
             .col-md-8.col-lg-4
               figure
@@ -433,7 +436,7 @@
             h3.titulo-con-imagen__texto Importancia normativa
 
 
-    .container.justify-content-center.mb-3
+    .container.justify-content-center.mb-5
       .col-md-12.col-lg-12
         .tarjeta.row.justify-content-center.align-items-center.bg-color-4
           .col-lg-5.mb-3.mb-lg-0.ps-0
@@ -457,6 +460,10 @@
               li
                 i.fas.fa-circle-right.bg-color-17
                 | Reduzcan las interrupciones innecesarias del servicio.
+
+    .row.justify-content-center.mb-3
+      .col-lg-12
+        p.mb-0 Una adecuada coordinación permite que las instalaciones eléctricas sean más seguras, confiables y eficientes.
 
     separador
     
@@ -508,16 +515,16 @@
                 ul.lista-ul.mb-0
                   li.mb-1
                     i.fas.fa-circle-right.bg-color-17
-                    | 120 V
+                    | 120 V.
                   li.mb-1
                     i.fas.fa-circle-right.bg-color-17
-                    | 208 V
+                    | 208 V.
                   li.mb-1
                     i.fas.fa-circle-right.bg-color-17
-                    | 220 V
+                    | 220 V.
                   li.mb-1
                     i.fas.fa-circle-right.bg-color-17
-                    | 480 V
+                    | 480 V.
 
             .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
               .p-2.mb-0
@@ -526,13 +533,13 @@
                 ul.lista-ul.mb-0
                   li.mb-1
                     i.fas.fa-circle-right.bg-color-17
-                    | Interruptor 20 A
+                    | Interruptor 20 A.
                   li.mb-1
                     i.fas.fa-circle-right.bg-color-17
-                    | Interruptor 40 A
+                    | Interruptor 40 A.
                   li.mb-1
                     i.fas.fa-circle-right.bg-color-17
-                    | Interruptor 100 A
+                    | Interruptor 100 A.
 
             .tarjeta.bg-color-18.p-4.h-100.box-shadow.br-15
               .p-2.mb-0
@@ -546,16 +553,16 @@
                 ul.lista-ul.mb-0
                   li.mb-1
                     i.fas.fa-circle-right.bg-color-17
-                    | Circuito iluminación
+                    | Circuito iluminación.
                   li.mb-1
                     i.fas.fa-circle-right.bg-color-17
-                    | Circuito tomacorrientes
+                    | Circuito tomacorrientes.
                   li.mb-1
                     i.fas.fa-circle-right.bg-color-17
-                    | Circuito aire acondicionado
+                    | Circuito aire acondicionado.
                   li.mb-1
                     i.fas.fa-circle-right.bg-color-17
-                    | Circuito motores
+                    | Circuito motores.
 
       p.mb-4  La correcta interpretación del diagrama unifilar permite determinar si el tablero cumple con la normatividad, si está bien distribuido, si las protecciones son adecuadas y si la instalación es segura.
 
@@ -569,7 +576,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Lo invitamos a revisar este enlace de video que ilustra cómo interpretar una diagrama unifilar:
+                  p.mb-0 Lo invitamos a revisar este enlace de video que ilustra cómo interpretar un diagrama unifilar:
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=9lAN8rdRI60" target="_blank")
                     span Enlace web
