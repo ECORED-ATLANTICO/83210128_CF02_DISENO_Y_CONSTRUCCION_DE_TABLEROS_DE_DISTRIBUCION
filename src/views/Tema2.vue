@@ -106,7 +106,7 @@
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/tema2/img05.png", alt="alt")
-            .crd_hover_txt--body(style="padding: 0.5rem;")
+            .crd_hover_txt--body
               h5.mb-2.text-center Gabinetes para ambientes interiores (IP20 – IP30)
               .p-2
                 p.mb-0 Para ambientes interiores con bajas exigencias ambientales, un gabinete IP20 – IP30 suele ser suficiente.
@@ -116,7 +116,7 @@
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/tema2/img06.png", alt="alt")
-            .crd_hover_txt--body(style="padding: 0.5rem;")
+            .crd_hover_txt--body
               h5.mb-2.text-center Gabinetes para exteriores e industria (IP55 – IP65)
               .p-2
                 p.mb-0 En ambientes exteriores o industriales, se requieren gabinetes IP55 – IP65, que garanticen protección contra polvo y chorros de agua .
@@ -126,7 +126,7 @@
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/tema2/img07.png", alt="alt")
-            .crd_hover_txt--body(style="padding: 0.5rem;")
+            .crd_hover_txt--body
               h5.mb-2.text-center Gabinetes para entornos críticos (Certificación NEMA)
               .p-2
                 p.mb-0 Para aplicaciones críticas o zonas con riesgo químico, pueden requerirse gabinetes con certificación NEMA, especialmente los tipos 3R, 4 o 4X.

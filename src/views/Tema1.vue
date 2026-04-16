@@ -35,8 +35,8 @@
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/tema1/img-2.png", alt="alt")
-            .crd_hover_txt--body
-              h4.mb-3 RETIE:
+            .crd_hover_txt--body.custom-padding
+              h4.mb-3 RETIE:<br><br>
               p.mb-3 Reglamento obligatorio para garantizar seguridad eléctrica, protección a la vida humana y preservación ambiental.
               p.mb-0 Su alcance va enfocado a todas las instalaciones nuevas o modificadas, públicas y privadas.
       
@@ -45,7 +45,7 @@
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/tema1/img-3.png", alt="alt")
-            .crd_hover_txt--body
+            .crd_hover_txt--body.custom-padding
               h4.mb-3 NTC 2050: Código Eléctrico Colombiano basado en NFPA 70:
               p.mb-0 Su alcance va enfocado a todos los requisitos técnicos mínimos para la construcción segura de instalaciones eléctricas.
               
