@@ -90,7 +90,7 @@
       .col-md-12.col-lg-12
         .tarjeta.bg-color-4.p-3.mb-3.br-15
           .row.align-items-center.justify-content-center
-            .col-10
+            .col-lg-12.col-md-12.p-4
               p.mb-0 En instalaciones más complejas, la identificación se complementa con códigos internos que permiten asociar cada circuito al plano unifilar, a su calibre y a su ruta dentro del edificio. Esta práctica se conoce como trazabilidad eléctrica y es un elemento muy valorado en la industria por su capacidad para reducir tiempos de intervención.
 
     separador

@@ -103,10 +103,10 @@
             .h2 4
           p.text-center.mb-0 Rotular todos los circuitos.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-md-12.col-lg-10
         .tarjeta.bg-color-4.p-3.mb-3.br-15
-          p.mb-0.text-center Este caso enfatiza la importancia del análisis sistemático y revela cómo una instalación aparentemente “funcional” puede resultar insegura o ilegal.
+          p.mb-0 Este caso enfatiza la importancia del análisis sistemático y revela cómo una instalación aparentemente “funcional” puede resultar insegura o ilegal.
 
     separador
 
@@ -233,8 +233,8 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-md-12.col-lg-10
-          .tarjeta.bg-color-4.p-3.mb-3.br-15
-            p.mb-0.text-center Con estas correcciones, el tablero podrá operar de forma confiable, estable y conforme a la normatividad vigente.
+          .tarjeta.bg-color-4.p-4.mb-3.br-15
+            p.mb-0 Con estas correcciones, el tablero podrá operar de forma confiable, estable y conforme a la normatividad vigente.
 
 
     separador
@@ -251,7 +251,7 @@
           span Errores comunes en tableros, riesgos asociados y acciones correctivas
         .tabla-a.color-acento-contenido.mb-0
           table
-            caption Nota. Adaptado de RETIE (2024), NTC 2050 (2023), IEC 61439 (2024).
+            caption Nota. <span style="font-weight: 400;">Adaptado de RETIE (2024), NTC 2050 (2023), IEC 61439 (2024).</span>
             thead
               tr
                 th Error común en el tablero
@@ -372,10 +372,10 @@
     
     .row.justify-content-center.align-items-center.mb-0
       .col-md-12.col-lg-12
-        .tarjeta.bg-color-4.p-3.mb-3.br-15
+        .tarjeta.bg-color-4.p-4.mb-3.br-15
           .row.align-items-center.justify-content-center
-            .col-10
-              p.mb-0.text-center Este instrumento opera como una guía práctica que permite al aprendiz, y al instalador, evaluar el tablero desde una mirada integral, segura y profesional.
+            .col-lg-12.col-md-12.p-3
+              p.mb-0 Este instrumento opera como una guía práctica que permite al aprendiz, y al instalador, evaluar el tablero desde una mirada integral, segura y profesional.
 
 </template>
 

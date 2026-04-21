@@ -184,7 +184,7 @@
           span Guía para identificación visual de protecciones eléctricas
         .tabla-a.color-acento-contenido.mb-0
           table
-            caption Nota. SENA, (2026).
+            caption Nota. <span style="font-weight: 400;">SENA, (2026).</span>
             thead
               tr
                 th Dispositivo
@@ -210,14 +210,14 @@
               tr
                 td(style="text-align: left") Guardamotor.
                 td(style="text-align: left") Protección integral de motores (térmica + magnética).
-                td(style="text-align: left") Dispositivo autónomo con botones (On/Off) o mando giratorio y ajuste de corriente.
+                td(style="text-align: left") Dispositivo autónomo con botones (<em>On / Off</em>) o mando giratorio y ajuste de corriente.
 
     .row.justify-content-center.align-items-center.mb-0
       .col-md-12.col-lg-12
         .tarjeta.bg-color-4.p-3.mb-3.br-15
           .row.align-items-center.justify-content-center
-            .col-10
-              p.mb-0.text-center Cada protección debe ser seleccionada según la curva de disparo apropiada (B, C, D) y según la carga que pretende proteger.
+            .col-lg-12.col-md-12.p-4
+              p.mb-0 Cada protección debe ser seleccionada según la curva de disparo apropiada (B, C, D) y según la carga que pretende proteger.
 
 
 
@@ -271,7 +271,7 @@
           span Comparativo entre esquemas TN
         .tabla-a.color-acento-contenido.mb-0
           table
-            caption Nota. SENA, (2026).
+            caption Nota. <span style="font-weight: 400;">SENA, (2026).</span>
             thead
               tr
                 th Característica

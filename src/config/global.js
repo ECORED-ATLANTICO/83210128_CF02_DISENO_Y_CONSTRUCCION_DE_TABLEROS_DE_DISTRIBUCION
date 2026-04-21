@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Normatividad y requisitos técnicos para tableros de distribución',
     Description:
-      'El componente formativo Normatividad y requisitos técnicos para tableros de distribución desarrolla en el aprendiz las competencias necesarias para interpretar, aplicar y verificar los lineamientos del RETIE, la NTC 2050 y normas internacionales relacionadas con el diseño, instalación y evaluación de tableros eléctricos, asegurando intervenciones seguras, con-formes a la normativa vigente.',
+      'El componente formativo Normatividad y requisitos técnicos para tableros de distribución desarrolla en el aprendiz las competencias necesarias para interpretar, aplicar y verificar los lineamientos del RETIE, la NTC 2050 y normas internacionales relacionadas con el diseño, instalación y evaluación de tableros eléctricos, asegurando intervenciones seguras, conformes a la normativa vigente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

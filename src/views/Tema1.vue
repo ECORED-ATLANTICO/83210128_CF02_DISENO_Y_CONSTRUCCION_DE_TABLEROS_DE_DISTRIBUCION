@@ -26,7 +26,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
         .tarjeta.bg-color-4.p-3.mb-3.br-15
-          p.mb-0.text-center En Colombia, la regulación de las instalaciones eléctricas se fundamenta en dos pilares principales: la Norma RETIE y Norma NTC 2050. La combinación de ambas forma el Marco obligatorio para el diseño y montaje de tableros de distribución en nuestro país. 
+          p.mb-0 En Colombia, la regulación de las instalaciones eléctricas se fundamenta en dos pilares principales: la Norma RETIE y Norma NTC 2050. La combinación de ambas forma el Marco obligatorio para el diseño y montaje de tableros de distribución en nuestro país. 
 
     .bg-full-width.bg-fondo-2
       .row.justify-content-center.mb-5
@@ -36,7 +36,7 @@
               figure
                 img(src="@/assets/curso/tema1/img-2.png", alt="alt")
             .crd_hover_txt--body.custom-padding
-              h4.mb-3 RETIE:<br><br>
+              h4.mb-3 RETIE<br><br>
               p.mb-3 Reglamento obligatorio para garantizar seguridad eléctrica, protección a la vida humana y preservación ambiental.
               p.mb-0 Su alcance va enfocado a todas las instalaciones nuevas o modificadas, públicas y privadas.
       
@@ -46,7 +46,7 @@
               figure
                 img(src="@/assets/curso/tema1/img-3.png", alt="alt")
             .crd_hover_txt--body.custom-padding
-              h4.mb-3 NTC 2050: Código Eléctrico Colombiano basado en NFPA 70:
+              h4.mb-3 NTC 2050: Código Eléctrico Colombiano basado en NFPA 70
               p.mb-0 Su alcance va enfocado a todos los requisitos técnicos mínimos para la construcción segura de instalaciones eléctricas.
               
       .row.justify-content-center.align-items-center.mb-5
@@ -298,7 +298,7 @@
           span Relación entre las normas RETIE, NTC 2050 y normas internacionales
         .tabla-a.color-acento-contenido.mb-0
           table
-            caption Nota. Adaptado de Resolución 40117 de 2024 del Ministerio de Minas y Energía.
+            caption Nota. <span style="font-weight: 400;">Adaptado de Resolución 40117 de 2024 del Ministerio de Minas y Energía.</span>
             thead
               tr
                 th Norma
@@ -389,7 +389,7 @@
       .col-md-12.col-lg-12
         .bg-color-1.p-4.bg-tarjeta
           .row.align-items-center.justify-content-center
-            .col-10
+            .col-lg-12.col-md-12
               h4.mb-3 Ejemplo contextualizado
               p.mb-0 Imaginemos un pequeño taller metalmecánico que está ampliando su área de trabajo e instalando un nuevo tablero de distribución. El instalador elige ubicar el gabinete detrás de una máquina de soldadura, limitando el acceso frontal a menos de 40 cm. Aunque esto no afecta el funcionamiento eléctrico del tablero, constituye una infracción normativa que pone en riesgo al operario, pues en caso de falla no habría espacio para operar o intervenir el circuito de manera segura.
 
@@ -397,8 +397,8 @@
       .col-md-12.col-lg-12
         .tarjeta.bg-color-18.p-3.mb-3.br-15
           .row.align-items-center.justify-content-center
-            .col-10
-              p.mb-0.text-center La solución, según NTC 2050, consiste en reubicar el tablero o redistribuir los equipos para garantizar un mínimo de 1 metro de espacio libre frente al gabinete.
+            .col-lg-12.col-md-12.p-4
+              p.mb-0 La solución, según NTC 2050, consiste en reubicar el tablero o redistribuir los equipos para garantizar un mínimo de 1 metro de espacio libre frente al gabinete.
 
 </template>
 <script>

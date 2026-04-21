@@ -50,7 +50,7 @@
           span Elementos constructivos mínimos del tablero según normativa
         .tabla-a.color-acento-contenido.mb-0
           table
-            caption Nota. Adaptado de la norma NTC 2050.
+            caption Nota. <span style="font-weight: 400;">Adaptado de la norma NTC 2050.</span>
             thead
               tr
                 th Elemento
@@ -119,7 +119,7 @@
             .crd_hover_txt--body
               h5.mb-2.text-center Gabinetes para exteriores e industria (IP55 – IP65)
               .p-2
-                p.mb-0 En ambientes exteriores o industriales, se requieren gabinetes IP55 – IP65, que garanticen protección contra polvo y chorros de agua .
+                p.mb-0 En ambientes exteriores o industriales, se requieren gabinetes IP55 – IP65, que garanticen protección contra polvo y chorros de agua.
               
         .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
           .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -135,8 +135,8 @@
       .col-md-12.col-lg-12
         .tarjeta.bg-color-18.p-3.mb-3.br-15
           .row.align-items-center.justify-content-center
-            .col-10
-              p.mb-0.text-center En la práctica, seleccionar un gabinete inapropiado puede provocar corrosión, daños en aislantes, fallos en interruptores o incluso incendios, resaltando la importancia de este criterio normativo.
+            .col-lg-12.col-md-12.p-4
+              p.mb-0 En la práctica, seleccionar un gabinete inapropiado puede provocar corrosión, daños en aislantes, fallos en interruptores o incluso incendios, resaltando la importancia de este criterio normativo.
 
 
     separador
@@ -156,7 +156,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-9.mb-4.mb-lg-0
         .tarjeta.bg-color-4.p-4.mb-0.br-15
-          .col-10.mx-auto
+          .col-12.mx-auto
             ul.lista-ul.mb-0
               li.mb-0
                 i.fas.fa-circle-right.bg-color-17
@@ -182,7 +182,7 @@
       .col-md-12.col-lg-12
         .bg-color-1.p-4.bg-tarjeta
           .row.align-items-center.justify-content-center
-            .col-10
+            .col-lg-12.col-md-12.p-4
               p.mb-0 La correcta instalación de barras también requiere que el neutro permanezca aislado de la carcasa del gabinete, excepto en el punto autorizado por el sistema de puesta a tierra. Este detalle, que puede parecer menor, es causa común de no conformidades y fallas en inspecciones RETIE.
             
     separador
