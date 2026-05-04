@@ -50,7 +50,7 @@
           span Elementos constructivos mínimos del tablero según normativa
         .tabla-a.color-acento-contenido.mb-0
           table
-            caption Nota. <span style="font-weight: 400;">Adaptado de la norma NTC 2050.</span>
+            caption <span style="font-weight: 400;">Nota. Adaptado de la norma NTC 2050.</span>
             thead
               tr
                 th Elemento

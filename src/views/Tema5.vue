@@ -35,9 +35,9 @@
             h5.text-bold Figura 2.
             span Tablero de uso residencial con no conformidades
           figure.mb-2
-            img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema5/img04.png", alt="La figura 2  muestra un tablero residencial empotrado con la puesta abierta. Sobre la fotografía se señalan tres no conformidades: ausencia de identificación de circuitos; barra de neutro y barra de tierra unidas; falta de protección diferencial para zonas húmedas.")
-            img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema5/img05.png", alt="La figura 2  muestra un tablero residencial empotrado con la puesta abierta. Sobre la fotografía se señalan tres no conformidades: ausencia de identificación de circuitos; barra de neutro y barra de tierra unidas; falta de protección diferencial para zonas húmedas.")
-          figcaption <strong>Nota.</strong> SENA, (2026).
+            img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema5/img04.png", alt="La figura 2 muestra un tablero residencial empotrado con la puesta abierta. Sobre la fotografía se señalan tres no conformidades: ausencia de identificación de circuitos; barra de neutro y barra de tierra unidas; falta de protección diferencial para zonas húmedas. Nota. SENA, (2026).")
+            img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema5/img05.png", alt="La figura 2 muestra un tablero residencial empotrado con la puesta abierta. Sobre la fotografía se señalan tres no conformidades: ausencia de identificación de circuitos; barra de neutro y barra de tierra unidas; falta de protección diferencial para zonas húmedas. Nota. SENA, (2026).")
+          figcaption Nota. SENA, (2026).
   
 
       .container.justify-content-center.align-items-center.mb-5
@@ -128,9 +128,9 @@
           h5.text-bold Figura 3.
           span Tablero de uso industrial con no conformidades
         figure.mb-2
-          img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema5/img08.svg", alt="La figura 3 muestra una sala eléctrica con tablero switchgear trifásico de varias celdas. Sobre la imagen se indican cinco observaciones: falta de coordinación de protecciones; kA de interrupción insuficiente; diagrama unifilar desactualizado; carencia de barreras internas; y grado de protección del gabinete. En el piso se ve una franja de seguridad que delimita 1 metro de espacio de trabajo.")
-          img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema5/img09.svg", alt="La figura 3 muestra una sala eléctrica con tablero switchgear trifásico de varias celdas. Sobre la imagen se indican cinco observaciones: falta de coordinación de protecciones; kA de interrupción insuficiente; diagrama unifilar desactualizado; carencia de barreras internas; y grado de protección del gabinete. En el piso se ve una franja de seguridad que delimita 1 metro de espacio de trabajo.")
-        figcaption <strong>Nota.</strong> Adaptado de RETIE (2024), NTC 2050 (2023), IEC 61439 (2024).
+          img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema5/img08.svg", alt="La figura 3 muestra una sala eléctrica con tablero switchgear trifásico de varias celdas. Sobre la imagen se indican cinco observaciones: falta de coordinación de protecciones; kA de interrupción insuficiente; diagrama unifilar desactualizado; carencia de barreras internas; y grado de protección del gabinete. En el piso se ve una franja de seguridad que delimita 1 metro de espacio de trabajo. Nota. Adaptado de RETIE (2024), NTC 2050 (2023), IEC 61439 (2024).")
+          img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema5/img09.svg", alt="La figura 3 muestra una sala eléctrica con tablero switchgear trifásico de varias celdas. Sobre la imagen se indican cinco observaciones: falta de coordinación de protecciones; kA de interrupción insuficiente; diagrama unifilar desactualizado; carencia de barreras internas; y grado de protección del gabinete. En el piso se ve una franja de seguridad que delimita 1 metro de espacio de trabajo. Nota. Adaptado de RETIE (2024), NTC 2050 (2023), IEC 61439 (2024).")
+        figcaption Nota. Adaptado de RETIE (2024), NTC 2050 (2023), IEC 61439 (2024).
   
 
     .bg-full-width.bg-fondo-2
@@ -251,7 +251,7 @@
           span Errores comunes en tableros, riesgos asociados y acciones correctivas
         .tabla-a.color-acento-contenido.mb-0
           table
-            caption Nota. <span style="font-weight: 400;">Adaptado de RETIE (2024), NTC 2050 (2023), IEC 61439 (2024).</span>
+            caption <span style="font-weight: 400;">Nota. Adaptado de RETIE (2024), NTC 2050 (2023), IEC 61439 (2024).</span>
             thead
               tr
                 th Error común en el tablero

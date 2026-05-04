@@ -31,7 +31,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-md-12.col-lg-9.mb-4.mb-lg-0
           p.mb-3 Una de las primeras exigencias del RETIE es que los tableros estén dotados de señalización visible, permanente y comprensible. Esta señalización cumple una doble función: prevenir accidentes y facilitar la operación segura. No se trata únicamente de “poner etiquetas”, sino de transmitir información crítica sobre riesgos eléctricos, circuitos activos, dispositivos de protección y condiciones especiales del sistema.
-          p.mb-0 Por ejemplo, si un tablero alimenta equipos trifásicos o cargas de alta capacidad, la señalización debe advertirlo claramente. Lo mismo ocurre con tableros que poseen energización dual, circuitos de emergencia o zonas que requieren procedimientos especiales de bloqueo y etiquetado (LOTO).
+          p.mb-0 Por ejemplo, si un tablero alimenta equipos trifásicos o cargas de alta capacidad, la señalización debe advertirlo claramente. Lo mismo ocurre con tableros que poseen energización dual, circuitos de emergencia o zonas que requieren procedimientos especiales de bloqueo y etiquetado (<em>LOTO</em>).
         .col-md-8.col-lg-3
           img(src="@/assets/curso/tema4/img04.png", alt="Imagen decorativa")
 

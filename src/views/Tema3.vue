@@ -53,7 +53,7 @@
                 div(titulo="Sistema trifásico")
                   .row.justify-content-center.align-items-center.mb-0
                     .col-md-12.col-lg-8.mb-4.mb-lg-0
-                      p.mb-3 Es el sistema más robusto y se utiliza ampliamente en industrias, comercios, plantas de producción, ascensores, equipos HVAC, motores y maquinaria especializada. Opera con tres fases y, en la mayoría de aplicaciones, con un neutro.
+                      p.mb-3 Es el sistema más robusto y se utiliza ampliamente en industrias, comercios, plantas de producción, ascensores, equipos <em>HVAC</em>, motores y maquinaria especializada. Opera con tres fases y, en la mayoría de aplicaciones, con un neutro.
                       p.mb-3 Sus tensiones típicas incluyen:
                       
                       ul.lista-ul.mb-0
@@ -184,7 +184,7 @@
           span Guía para identificación visual de protecciones eléctricas
         .tabla-a.color-acento-contenido.mb-0
           table
-            caption Nota. <span style="font-weight: 400;">SENA, (2026).</span>
+            caption <span style="font-weight: 400;">Nota. SENA, (2026).</span>
             thead
               tr
                 th Dispositivo
@@ -198,7 +198,7 @@
               tr
                 td(style="text-align: left") Interruptor diferencial (RCD).
                 td(style="text-align: left") Protege a las personas contra descargas eléctricas (fugas).
-                td(style="text-align: left") Esencial: Siempre tiene un botón de "test" (marcado con una 'T').
+                td(style="text-align: left") Esencial: siempre tiene un botón de "<em>test</em>" (marcado con una 'T').
               tr
                 td(style="text-align: left") Fusible de alta capacidad (NH).
                 td(style="text-align: left") Protección industrial para corrientes muy elevadas.
@@ -225,9 +225,9 @@
 
     
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.3 Esquemas TT, TN y IT aplicados a tableros
+      h2 3.3 Esquemas TT, TN e IT aplicados a tableros
 
-    p.mb-4 Los esquemas de conexión a tierra TT, TN y IT definen la relación entre el neutro del sistema, las masas metálicas y la tierra física. Cada esquema tiene implicaciones técnicas y normativas que influyen directamente en el tablero.
+    p.mb-4 Los esquemas de conexión a tierra TT, TN e IT definen la relación entre el neutro del sistema, las masas metálicas y la tierra física. Cada esquema tiene implicaciones técnicas y normativas que influyen directamente en el tablero.
 
     .container.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -245,7 +245,7 @@
         .tarjeta.bg-color-4.p-4.mb-3.br-15
           p.mb-0 Sus siglas definen su arquitectura. T (Neutro del transformador a tierra) y T (Masas del usuario a una tierra independiente). En este sistema el neutro del transformador está aterrizado. Las masas metálicas del usuario también están conectadas a tierra mediante un electrodo independiente.
             
-        p.mb-0 Este esquema exige el uso de protección diferencial obligatoria, dado que la impedancia de la tierra del usuario puede ser elevada
+        p.mb-0 Este esquema exige el uso de protección diferencial obligatoria, dado que la impedancia de la tierra del usuario puede ser elevada.
 
     .bg-full-width.bg-fondo-2
       .container.justify-content-center.align-items-center.mb-5
@@ -271,7 +271,7 @@
           span Comparativo entre esquemas TN
         .tabla-a.color-acento-contenido.mb-0
           table
-            caption Nota. <span style="font-weight: 400;">SENA, (2026).</span>
+            caption <span style="font-weight: 400;">Nota. SENA, (2026).</span>
             thead
               tr
                 th Característica

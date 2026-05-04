@@ -18,8 +18,7 @@ export default {
   data: () => ({
     cuestionario: {
       tema: 'Normatividad y requisitos técnicos para tableros de distribución',
-      titulo:
-        'Reconocimiento de criterios normativos y técnicos en tableros de distribución.',
+      titulo: 'Cuestionario.',
       introduccion:
         '<b>Objetivo:</b> fortalecer la comprensión y aplicación de los lineamientos del RETIE, la NTC 2050 y otros referentes técnicos mediante la resolución de preguntas de coherencia que permitan al aprendiz identificar requisitos, buenas prácticas y no conformidades presentes en el diseño, instalación y verificación de tableros de distribución.',
       barajarPreguntas: true,

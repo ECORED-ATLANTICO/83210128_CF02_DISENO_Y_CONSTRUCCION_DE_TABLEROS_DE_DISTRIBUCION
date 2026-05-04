@@ -125,7 +125,7 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: 'Esquemas TT, TN y IT aplicados a tableros',
+            titulo: 'Esquemas TT, TN e IT aplicados a tableros',
             hash: 't_3_3',
           },
           {
@@ -186,7 +186,7 @@ export default {
           },
           {
             numero: '5.4',
-            titulo: 'Checklist técnico de cumplimiento RETIE–NTC',
+            titulo: '<em>Checklist</em> técnico de cumplimiento RETIE–NTC',
             hash: 't_5_4',
           },
         ],
@@ -223,7 +223,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA2_83210128_DU.zip',
+        download: 'downloads/CFA2_83210128_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -417,11 +417,11 @@ export default {
     },
     {
       referencia:
-        'Universidad Nacional de Colombia. (2023). <em>Seguridad eléctrica: fundamentos y normatividad aplicable</em>. Repositorio UNAL.',
+        'U.S. Department of Energy. (2024). <em>Electrical Safety Guidelines</em>. Office of Energy Efficiency & Renewable Energy.',
     },
     {
       referencia:
-        'U.S. Department of Energy. (2024). <em>Electrical Safety Guidelines</em>. Office of Energy Efficiency & Renewable Energy.',
+        'Universidad Nacional de Colombia. (2023). <em>Seguridad eléctrica: fundamentos y normatividad aplicable</em>. Repositorio UNAL.',
     },
   ],
   creditos: [
@@ -461,7 +461,7 @@ export default {
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
-          cargo: 'Desarrollador <i>full stack</i>',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {

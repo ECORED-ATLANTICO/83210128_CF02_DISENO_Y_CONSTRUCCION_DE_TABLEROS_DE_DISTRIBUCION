@@ -97,7 +97,7 @@
           figure.mb-2
             img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema1/img-7.svg", alt="La figura 1 ilustra los elementos esenciales de seguridad en el RETIE. - Protección de vida humana. - Protección de instalaciones. - Protección ambiental. - Conformidad técnica.  Nota. Adaptado de RETIE. Resolución 40117 de 2024.")
             img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img-8.svg", alt="La figura 1 ilustra los elementos esenciales de seguridad en el RETIE. - Protección de vida humana. - Protección de instalaciones. - Protección ambiental. - Conformidad técnica.  Nota. Adaptado de RETIE. Resolución 40117 de 2024.")
-          figcaption <strong>Nota.</strong> Adaptado de RETIE. Resolución 40117 de 2024.
+          figcaption Nota. Adaptado de RETIE. Resolución 40117 de 2024.
 
 
     //- .bg-full-width.bg-fondo-1.mb-2.p-4.p-lg-5
@@ -247,7 +247,7 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-md-12.col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
-          p.mb-3 Un tablero no es simplemente un conjunto de interruptores y barras; es un sistema integrado que debe cumplir simultáneamente con normas nacionales e internacionales. Por eso, en la construcción de tableros se aplican también los estándares internacionales UL (Underwriters Laboratories), IEC (International Electrotechnical Commission) y NEMA (National Electrical Manufacturers Association), que regulan aspectos como:
+          p.mb-3 Un tablero no es simplemente un conjunto de interruptores y barras; es un sistema integrado que debe cumplir simultáneamente con normas nacionales e internacionales. Por eso, en la construcción de tableros se aplican también los estándares internacionales UL (<em>Underwriters Laboratories</em>), IEC (<em>International Electrotechnical Commission</em>) y NEMA (<em>National Electrical Manufacturers Association</em>), que regulan aspectos como:
           p.mb-0 En el contexto colombiano, estos estándares se articulan de la siguiente manera:
 
         .col-md-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
@@ -298,7 +298,7 @@
           span Relación entre las normas RETIE, NTC 2050 y normas internacionales
         .tabla-a.color-acento-contenido.mb-0
           table
-            caption Nota. <span style="font-weight: 400;">Adaptado de Resolución 40117 de 2024 del Ministerio de Minas y Energía.</span>
+            caption <span style="font-weight: 400;">Nota. Adaptado de Resolución 40117 de 2024 del Ministerio de Minas y Energía.</span>
             thead
               tr
                 th Norma
@@ -315,7 +315,7 @@
                 td NTC 2050.
                 td Código eléctrico (Técnica).
                 td Obligatorio. Sus primeros 7 capítulos son exigidos por el RETIE para instalaciones internas.
-                td Basada estrictamente en el NEC (National Electrical Code / NFPA 70) de EE. UU.
+                td Basada estrictamente en el NEC (<em>National Electrical Code</em> / NFPA 70) de EE. UU.
               tr
                 td IEC.
                 td Estándar internacional.
