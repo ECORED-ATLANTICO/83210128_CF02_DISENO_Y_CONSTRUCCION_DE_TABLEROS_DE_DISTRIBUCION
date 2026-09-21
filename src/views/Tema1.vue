@@ -26,7 +26,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
         .tarjeta.bg-color-4.p-3.mb-3.br-15
-          p.mb-0 En Colombia, la regulación de las instalaciones eléctricas se fundamenta en dos pilares principales: la Norma RETIE y Norma NTC 2050. La combinación de ambas forma el Marco obligatorio para el diseño y montaje de tableros de distribución en nuestro país. 
+          p.mb-0 En Colombia, la regulación de las instalaciones eléctricas se fundamenta en dos pilares principales: la norma RETIE y la norma NTC 2050. La combinación de ambas forma el marco obligatorio para el diseño y montaje de tableros de distribución en nuestro país. 
 
     .bg-full-width.bg-fondo-2
       .row.justify-content-center.mb-5
@@ -85,7 +85,7 @@
     
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-10(data-aos="fade-up")
-            p.banner-text.bg-color-18 El RETIE es, ante todo, un reglamento orientado a la protección integral. Su finalidad es reducir al mínimo los riesgos asociados con la electricidad, asegurando que las instalaciones eléctricas no generen peligros para las personas, los animales, el medio ambiente ni los bienes. Esto significa que cualquier tablero - sin importar su tamaño, función o ubicación - debe cumplir un conjunto estricto de requisitos que permiten prevenir descargas eléctricas, incendios, quemaduras, fallas de aislamiento, cortocircuitos no controlados y otros riesgos asociados.
+            p.banner-text.bg-color-18 El RETIE es, ante todo, un reglamento orientado a la protección integral. Su finalidad es reducir al mínimo los riesgos asociados con la electricidad, asegurando que las instalaciones eléctricas no generen peligros para las personas, los animales, el medio ambiente ni los bienes. Esto significa que cualquier tablero &mdash; sin importar su tamaño, función o ubicación &mdash; debe cumplir un conjunto estricto de requisitos que permiten prevenir descargas eléctricas, incendios, quemaduras, fallas de aislamiento, cortocircuitos no controlados y otros riesgos asociados.
 
 
     .bg-full-width.bg-fondo-2

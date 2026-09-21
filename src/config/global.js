@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Normatividad y requisitos técnicos para tableros de distribución',
     Description:
-      'El componente formativo Normatividad y requisitos técnicos para tableros de distribución desarrolla en el aprendiz las competencias necesarias para interpretar, aplicar y verificar los lineamientos del RETIE, la NTC 2050 y normas internacionales relacionadas con el diseño, instalación y evaluación de tableros eléctricos, asegurando intervenciones seguras, conformes a la normativa vigente.',
+      'El componente formativo Normatividad y requisitos técnicos para tableros de distribución desarrolla en el aprendiz las competencias necesarias para interpretar, aplicar y verificar los lineamientos del RETIE, la NTC 2050 y normas internacionales relacionadas con el diseño, instalación y evaluación de tableros eléctricos, asegurando intervenciones seguras, confiables y conformes a la normativa vigente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -223,7 +223,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA2_83210128_DU.pdf',
+        download: 'downloads/83210128_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -431,7 +431,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional G06. Responsable Ecosistema de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

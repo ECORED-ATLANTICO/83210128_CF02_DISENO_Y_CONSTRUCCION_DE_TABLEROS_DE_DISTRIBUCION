@@ -163,12 +163,12 @@
               //- .col-12.mb-0
               .p-2.mb-0
                 h2.mb-2.mb-lg-1(style="color: #CCDFF8") 02
-                p.mb-0 Interruptores diferenciales (RCD): su aplicación es de seguridad humana. Detectan fugas de corriente mínimas (30mA) que un termomagnético ignoraría, salvando vidas ante contactos accidentales.
+                p.mb-0 Interruptores diferenciales (RCD): su aplicación es de seguridad humana. Detectan fugas de corriente mínimas (30 mA) que un termomagnético ignoraría, salvando vidas ante contactos accidentales.
             .tarjeta.bg-color-white.p-2.h-100.box-shadow
               //- .col-12.mb-0
               .p-2.mb-0
                 h2.mb-2.mb-lg-1(style="color: #CCDFF8") 03
-                p.mb-0 Fusibles de alta capacidad (NH / Cilíndricos): se aplican en cabeceras de tableros o maquinaria pesada. Su ventaja es que pueden interrumpir corrientes de falla altísimas que destruirían a un interruptor común.
+                p.mb-0 Fusibles de alta capacidad (NH / cilíndricos): se aplican en cabeceras de tableros o maquinaria pesada. Su ventaja es que pueden interrumpir corrientes de falla altísimas que destruirían a un interruptor común.
             .tarjeta.bg-color-white.p-2.h-100.box-shadow
               //- .col-12.mb-0
               .p-2.mb-0
